@@ -75,27 +75,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/key_expansion.vhd">
-        <FileInfo>
-          <Attr Name="Library" Val="keyschedule"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/key_padding.vhd">
-        <FileInfo>
-          <Attr Name="Library" Val="keyschedule"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/linear_transform.vhd">
-        <FileInfo>
-          <Attr Name="Library" Val="transforms"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/s_box_0.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
@@ -124,14 +103,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/s_box_2.vhd">
+      <File Path="$PSRCDIR/sources_1/new/s_box_4.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/parallel_s_box_2.vhd">
+      <File Path="$PSRCDIR/sources_1/new/parallel_s_box_4.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -152,14 +131,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/s_box_4.vhd">
+      <File Path="$PSRCDIR/sources_1/new/s_box_2.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/parallel_s_box_4.vhd">
+      <File Path="$PSRCDIR/sources_1/new/parallel_s_box_2.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -180,6 +159,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/top_para_sbox_0.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="sboxes"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/s_box_6.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
@@ -194,6 +180,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/top_para_sbox_1.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="sboxes"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/s_box_7.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
@@ -202,20 +195,6 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/parallel_s_box_7.vhd">
-        <FileInfo>
-          <Attr Name="Library" Val="sboxes"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/top_para_sbox_0.vhd">
-        <FileInfo>
-          <Attr Name="Library" Val="sboxes"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/top_para_sbox_1.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -260,6 +239,27 @@
       <File Path="$PSRCDIR/sources_1/new/top_para_sbox_7.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/key_expansion.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="keyschedule"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/key_padding.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="keyschedule"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/linear_transform.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="transforms"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>

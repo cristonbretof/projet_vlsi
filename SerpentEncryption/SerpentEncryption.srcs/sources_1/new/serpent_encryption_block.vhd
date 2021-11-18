@@ -1,24 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 11/11/2021 12:19:12 PM
--- Design Name: 
--- Module Name: serpent_encryption_block - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 library sboxes;
 library transforms;
@@ -185,7 +164,7 @@ gen_sbox7_rounds : for i in 0 to 2 generate
     top_sbox7 : entity sboxes.top_para_sbox_7
         Port Map ( i_para_box_data => B_int(i*8+7),
                    o_para_box_data => B_sbox(i*8+7));
-                   
+
     linear_transform6 : entity transforms.linear_transform
         Port Map ( i_X => B_sbox(i*8+7),
                    o_Bk => B(i*8+8) );
@@ -193,7 +172,7 @@ end generate gen_sbox7_rounds;
 
 -- Dernière itération en parallèle
 B_int(31) <= B(31) xor K(31);
-    
+
 top_sbox7 : entity sboxes.top_para_sbox_7
     Port Map ( i_para_box_data => B_int(31),
                o_para_box_data => B_sbox(31));
