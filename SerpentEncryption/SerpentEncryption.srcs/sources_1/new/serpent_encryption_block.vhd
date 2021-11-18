@@ -22,12 +22,16 @@
 library IEEE;
 library sboxes;
 library transforms;
+library keyschedule;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use transforms.all;
+use sboxes.all;
+use keyschedule.all;
 
 entity serpent_encryption_block is
-    Generic (  i_key : std_logic_vector(127 downto 0) := x"7A325381289586773B8F48986B4BB9AF");
-    Port ( i_plaintext : in std_logic_vector(127 downto 0);
+    Port ( i_plaintext  : in std_logic_vector(127 downto 0);
+           i_key        : in std_logic_vector(127 downto 0);
            o_ciphertext : out std_logic_vector(127 downto 0) );
 end serpent_encryption_block;
 
@@ -40,11 +44,34 @@ signal B_int : iteration;
 signal B_sbox : iteration;
 signal K : iteration;
 
+-- Padded key
+signal padded_key : std_logic_vector(255 downto 0);
+
+-- Remainder from key scheduling operation (concatenated keys)
+signal K_bunch : std_logic_vector(4223 downto 0);
+
 -- Signaux pour la dernière itération
 signal B32 : std_logic_vector(127 downto 0);
 signal K32 : std_logic_vector(127 downto 0);
 
 begin
+
+-- Keyschedule
+keypad : entity keyschedule.key_padding
+    Port Map ( i_key     => i_key,
+               o_pad_key => padded_key );
+
+keysched : entity keyschedule.key_expansion
+    Port Map ( i_pad_key    => padded_key,
+               o_expand_key => K_bunch );
+
+
+gen_all_keys : for i in 0 to 31 generate
+    K(i) <= K_bunch(128*i+127 downto 128*i);
+end generate gen_all_keys;
+
+-- 33ieme clé
+K32 <= K_bunch(4223 downto 4096);
 
 -- Permutation initiale
 ip : entity transforms.ip
@@ -53,7 +80,6 @@ ip : entity transforms.ip
 
 -- Rounds pour le Sbox0
 gen_sbox0_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8) <= B(i*8) xor K(i*8);
     
@@ -68,7 +94,6 @@ end generate gen_sbox0_rounds;
 
 -- Rounds pour le Sbox1
 gen_sbox1_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+1) <= B(i*8+1) xor K(i*8+1);
     
@@ -98,7 +123,6 @@ end generate gen_sbox2_rounds;
 
 -- Rounds pour le Sbox3
 gen_sbox3_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+3) <= B(i*8+3) xor K(i*8+3);
     
@@ -113,7 +137,6 @@ end generate gen_sbox3_rounds;
 
 -- Rounds pour le Sbox4
 gen_sbox4_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+4) <= B(i*8+4) xor K(i*8+4);
     
@@ -128,7 +151,6 @@ end generate gen_sbox4_rounds;
 
 -- Rounds pour le Sbox5
 gen_sbox5_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+5) <= B(i*8+5) xor K(i*8+5);
     
@@ -143,7 +165,6 @@ end generate gen_sbox5_rounds;
 
 -- Rounds pour le Sbox6
 gen_sbox6_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+6) <= B(i*8+6) xor K(i*8+6);
     
@@ -158,7 +179,6 @@ end generate gen_sbox6_rounds;
 
 -- Rounds pour le Sbox7
 gen_sbox7_rounds : for i in 0 to 2 generate
-    -- Keyscheduler
 
     B_int(i*8+7) <= B(i*8+7) xor K(i*8+7);
     
@@ -169,9 +189,14 @@ gen_sbox7_rounds : for i in 0 to 2 generate
     linear_transform6 : entity transforms.linear_transform
         Port Map ( i_X => B_sbox(i*8+7),
                    o_Bk => B(i*8+8) );
-end generate gen_sbox7_rounds;                   
+end generate gen_sbox7_rounds;
 
--- Keyscheduler
+-- Dernière itération en parallèle
+B_int(31) <= B(31) xor K(31);
+    
+top_sbox7 : entity sboxes.top_para_sbox_7
+    Port Map ( i_para_box_data => B_int(31),
+               o_para_box_data => B_sbox(31));
 
 -- Dernier keyschedule
 B32 <= B_sbox(31) xor K32;

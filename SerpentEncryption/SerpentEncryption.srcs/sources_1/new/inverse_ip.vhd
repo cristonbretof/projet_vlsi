@@ -41,8 +41,6 @@ architecture Behavioral of inverse_ip is
 begin
 
 -- Permutation finale
-
-
 o_ciphertext(0) <= i_B32(0);
 o_ciphertext(1) <= i_B32(4);
 o_ciphertext(2) <= i_B32(8);
