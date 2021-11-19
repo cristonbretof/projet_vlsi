@@ -34,8 +34,8 @@ use sboxes.ALL;
 --use UNISIM.VComponents.all;
 
 entity parallel_s_box_5 is
-    Port ( i_box_data : in STD_LOGIC_VECTOR (3 downto 0);
-           o_box_data : out STD_LOGIC_VECTOR (3 downto 0));
+    Port ( i_box_data : in STD_LOGIC_VECTOR (31 downto 0);
+           o_box_data : out STD_LOGIC_VECTOR (31 downto 0));
 end parallel_s_box_5;
 
 architecture Behavioral of parallel_s_box_5 is
