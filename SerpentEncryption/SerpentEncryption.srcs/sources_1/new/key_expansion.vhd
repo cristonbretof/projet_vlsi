@@ -17,10 +17,9 @@ type Subkey is array (7 downto 0) of std_logic_vector(31 downto 0);
 signal W : Prekey;
 signal K : Subkey;
 
-type Word is array (32 downto 0) of std_logic_vector(31 downto 0);
-signal Key : Word;
-signal in_Key_int : Word;
-signal out_Key_int : Word;
+type Key is array (32 downto 0) of std_logic_vector(127 downto 0);
+signal in_Key_int : Key;
+signal out_Key_int : Key;
 
 constant Phi : std_logic_vector(31 downto 0):= x"9e3779b9";
 
@@ -76,6 +75,10 @@ gen_round_keys : for i in 0 to 3 generate
         Port Map ( i_para_box_data => in_Key_int(i*8+4),
                    o_para_box_data => out_Key_int(i*8+4));
 end generate gen_round_keys;
+
+s_box3 : entity sboxes.top_para_sbox_3
+    Port Map ( i_para_box_data => in_Key_int(32),
+               o_para_box_data => out_Key_int(32));
 
 gen_expanded_key : for i in 0 to 32 generate
     o_expand_key(128*i+127 downto 128*i) <= out_Key_int(i);

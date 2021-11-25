@@ -35,16 +35,17 @@ signal K32 : std_logic_vector(127 downto 0);
 
 begin
 
--- Keyschedule
+-- Algorithme d'expansion de la clé (padding)
 keypad : entity keyschedule.key_padding
     Port Map ( i_key     => i_key,
                o_pad_key => padded_key );
 
+-- Génération des clés pour chaque rounds (round keys)
 keysched : entity keyschedule.key_expansion
     Port Map ( i_pad_key    => padded_key,
                o_expand_key => K_bunch );
 
-
+-- Génération de toutes les clés à partir de 4224 bits
 gen_all_keys : for i in 0 to 31 generate
     K(i) <= K_bunch(128*i+127 downto 128*i);
 end generate gen_all_keys;
@@ -52,10 +53,8 @@ end generate gen_all_keys;
 -- 33ieme clé
 K32 <= K_bunch(4223 downto 4096);
 
--- Permutation initiale
-ip : entity transforms.ip
-    Port Map ( i_plaintext => i_plaintext,
-               o_B0 => B(0));
+-- Le premier bloc est le plaintext
+B(0) <= i_plaintext;
 
 -- Rounds pour le Sbox0
 gen_sbox0_rounds : for i in 0 to 3 generate
@@ -87,7 +86,6 @@ end generate gen_sbox1_rounds;
 
 -- Rounds pour le Sbox2
 gen_sbox2_rounds : for i in 0 to 3 generate
-    -- Keyscheduler
 
     B_int(i*8+2) <= B(i*8+2) xor K(i*8+2);
     
@@ -173,16 +171,12 @@ end generate gen_sbox7_rounds;
 -- Dernière itération en parallèle
 B_int(31) <= B(31) xor K(31);
 
+-- Dernier Sbox pour le 31 ième round
 top_sbox7 : entity sboxes.top_para_sbox_7
     Port Map ( i_para_box_data => B_int(31),
                o_para_box_data => B_sbox(31));
 
 -- Dernier keyschedule
-B32 <= B_sbox(31) xor K32;
-
--- Permutation finale
-fp : entity transforms.inverse_ip
-    Port Map ( i_B32 => B32,
-               o_ciphertext => o_ciphertext);
-
+o_ciphertext <= B_sbox(31) xor K32;
+               
 end Behavioral;
