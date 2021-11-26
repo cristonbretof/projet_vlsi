@@ -2,181 +2,154 @@ library IEEE;
 library sboxes;
 library transforms;
 library keyschedule;
+library sequential;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 use transforms.all;
 use sboxes.all;
 use keyschedule.all;
+use sequential.all;
 
 entity serpent_encryption_block is
-    Port ( i_plaintext  : in std_logic_vector(127 downto 0);
-           i_key        : in std_logic_vector(127 downto 0);
-           o_ciphertext : out std_logic_vector(127 downto 0) );
+    Port ( i_px_clk     : in  std_logic;
+           i_reset      : in  std_logic;
+           i_key_index  : in  std_logic_vector(1    downto 0);
+           i_plaintext  : in  std_logic_vector(127  downto 0);
+           i_key        : in  std_logic_vector(4223 downto 0);
+           o_ciphertext : out std_logic_vector(127  downto 0));
 end serpent_encryption_block;
 
 architecture Behavioral of serpent_encryption_block is
 
--- Tableau de signaux pour les itérations
-type iteration is array (31 downto 0) of std_logic_vector(127 downto 0);
-signal B : iteration;
-signal B_int : iteration;
-signal B_sbox : iteration;
-signal K : iteration;
+-- Signal d'entré pour les rounds
+signal B_in_0 : std_logic_vector(127 downto 0);
 
--- Padded key
-signal padded_key : std_logic_vector(255 downto 0);
+-- Signaux pour les rounds (intermédiaires)
+signal B_int_0 : std_logic_vector(127 downto 0);
+signal B_int_1 : std_logic_vector(127 downto 0);
+signal B_int_2 : std_logic_vector(127 downto 0);
+signal B_int_3 : std_logic_vector(127 downto 0);
+signal B_int_4 : std_logic_vector(127 downto 0);
+signal B_int_5 : std_logic_vector(127 downto 0);
+signal B_int_6 : std_logic_vector(127 downto 0);
+signal B_int_7 : std_logic_vector(127 downto 0);
 
--- Remainder from key scheduling operation (concatenated keys)
-signal K_bunch : std_logic_vector(4223 downto 0);
+-- Signaux pour l'application des clés
+signal B_key_0 : std_logic_vector(127 downto 0);
+signal B_key_1 : std_logic_vector(127 downto 0);
+signal B_key_2 : std_logic_vector(127 downto 0);
+signal B_key_3 : std_logic_vector(127 downto 0);
+signal B_key_4 : std_logic_vector(127 downto 0);
+signal B_key_5 : std_logic_vector(127 downto 0);
+signal B_key_6 : std_logic_vector(127 downto 0);
+signal B_key_7 : std_logic_vector(127 downto 0);
 
--- Signaux pour la dernière itération
-signal B32 : std_logic_vector(127 downto 0);
-signal K32 : std_logic_vector(127 downto 0);
+-- Signaux pour les rounds (sorties)
+signal B_out_0 : std_logic_vector(127 downto 0);
+signal B_out_1 : std_logic_vector(127 downto 0);
+signal B_out_2 : std_logic_vector(127 downto 0);
+signal B_out_3 : std_logic_vector(127 downto 0);
+signal B_out_4 : std_logic_vector(127 downto 0);
+signal B_out_5 : std_logic_vector(127 downto 0);
+signal B_out_6 : std_logic_vector(127 downto 0);
+signal B_out_7 : std_logic_vector(127 downto 0);
+
+-- Tableau de signaux pour les clés utilisées pour les rounds
+type RoundKeys is array (32 downto 0) of std_logic_vector(127 downto 0);
+signal K : RoundKeys;
+
+signal intermediate_message : std_logic_vector(127 downto 0);
 
 begin
 
--- Algorithme d'expansion de la clé (padding)
-keypad : entity keyschedule.key_padding
-    Port Map ( i_key     => i_key,
-               o_pad_key => padded_key );
-
--- Génération des clés pour chaque rounds (round keys)
-keysched : entity keyschedule.key_expansion
-    Port Map ( i_pad_key    => padded_key,
-               o_expand_key => K_bunch );
-
 -- Génération de toutes les clés à partir de 4224 bits
-gen_all_keys : for i in 0 to 31 generate
-    K(i) <= K_bunch(128*i+127 downto 128*i);
+gen_all_keys : for i in 0 to 32 generate
+    K(i) <= i_key(128*i+127 downto 128*i);
 end generate gen_all_keys;
 
--- 33ieme clé
-K32 <= K_bunch(4223 downto 4096);
-
--- Le premier bloc est le plaintext
-B(0) <= i_plaintext;
-
--- Rounds pour le Sbox0
-gen_sbox0_rounds : for i in 0 to 3 generate
-
-    B_int(i*8) <= B(i*8) xor K(i*8);
-    
-    top_sbox0 : entity sboxes.top_para_sbox_0
-        Port Map ( i_para_box_data => B_int(i*8),
-                   o_para_box_data => B_sbox(i*8));
-                   
-    linear_transform0 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8),
-                   o_Bk => B(i*8+1) );
-end generate gen_sbox0_rounds;
-
--- Rounds pour le Sbox1
-gen_sbox1_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+1) <= B(i*8+1) xor K(i*8+1);
-    
-    top_sbox1 : entity sboxes.top_para_sbox_1
-        Port Map ( i_para_box_data => B_int(i*8+1),
-                   o_para_box_data => B_sbox(i*8+1));
-                   
-    linear_transform1 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+1),
-                   o_Bk => B(i*8+2) );
-end generate gen_sbox1_rounds;
-
--- Rounds pour le Sbox2
-gen_sbox2_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+2) <= B(i*8+2) xor K(i*8+2);
-    
-    top_sbox2 : entity sboxes.top_para_sbox_2
-        Port Map ( i_para_box_data => B_int(i*8+2),
-                   o_para_box_data => B_sbox(i*8+2));
-                   
-    linear_transform2 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+2),
-                   o_Bk => B(i*8+3) );
-end generate gen_sbox2_rounds;
-
--- Rounds pour le Sbox3
-gen_sbox3_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+3) <= B(i*8+3) xor K(i*8+3);
-    
-    top_sbox3 : entity sboxes.top_para_sbox_3
-        Port Map ( i_para_box_data => B_int(i*8+3),
-                   o_para_box_data => B_sbox(i*8+3));
-                   
-    linear_transform3 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+3),
-                   o_Bk => B(i*8+4) );
-end generate gen_sbox3_rounds;
-
--- Rounds pour le Sbox4
-gen_sbox4_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+4) <= B(i*8+4) xor K(i*8+4);
-    
-    top_sbox4 : entity sboxes.top_para_sbox_4
-        Port Map ( i_para_box_data => B_int(i*8+4),
-                   o_para_box_data => B_sbox(i*8+4));
-                   
-    linear_transform4 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+4),
-                   o_Bk => B(i*8+5) );
-end generate gen_sbox4_rounds;
-
--- Rounds pour le Sbox5
-gen_sbox5_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+5) <= B(i*8+5) xor K(i*8+5);
-    
-    top_sbox5 : entity sboxes.top_para_sbox_5
-        Port Map ( i_para_box_data => B_int(i*8+5),
-                   o_para_box_data => B_sbox(i*8+5));
-                   
-    linear_transform5 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+5),
-                   o_Bk => B(i*8+6) );
-end generate gen_sbox5_rounds;
-
--- Rounds pour le Sbox6
-gen_sbox6_rounds : for i in 0 to 3 generate
-
-    B_int(i*8+6) <= B(i*8+6) xor K(i*8+6);
-    
-    top_sbox6 : entity sboxes.top_para_sbox_6
-        Port Map ( i_para_box_data => B_int(i*8+6),
-                   o_para_box_data => B_sbox(i*8+6));
-                   
-    linear_transform6 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+6),
-                   o_Bk => B(i*8+7) );
-end generate gen_sbox6_rounds;
-
--- Rounds pour le Sbox7
-gen_sbox7_rounds : for i in 0 to 2 generate
-
-    B_int(i*8+7) <= B(i*8+7) xor K(i*8+7);
-    
-    top_sbox7 : entity sboxes.top_para_sbox_7
-        Port Map ( i_para_box_data => B_int(i*8+7),
-                   o_para_box_data => B_sbox(i*8+7));
-
-    linear_transform6 : entity transforms.linear_transform
-        Port Map ( i_X => B_sbox(i*8+7),
-                   o_Bk => B(i*8+8) );
-end generate gen_sbox7_rounds;
-
--- Dernière itération en parallèle
-B_int(31) <= B(31) xor K(31);
-
--- Dernier Sbox pour le 31 ième round
+-- 8x32 S-Boxes en parallèle (0 à 7)
+top_sbox0 : entity sboxes.top_para_sbox_0
+        Port Map ( i_para_box_data => B_in_0,
+                   o_para_box_data => B_int_0);
+top_sbox1 : entity sboxes.top_para_sbox_1
+        Port Map ( i_para_box_data => B_out_0,
+                   o_para_box_data => B_int_1);
+top_sbox2 : entity sboxes.top_para_sbox_2
+        Port Map ( i_para_box_data => B_out_1,
+                   o_para_box_data => B_int_2);
+top_sbox3 : entity sboxes.top_para_sbox_3
+        Port Map ( i_para_box_data => B_out_2,
+                   o_para_box_data => B_int_3);
+top_sbox4 : entity sboxes.top_para_sbox_4
+        Port Map ( i_para_box_data => B_out_3,
+                   o_para_box_data => B_int_4);
+top_sbox5 : entity sboxes.top_para_sbox_5
+        Port Map ( i_para_box_data => B_out_4,
+                   o_para_box_data => B_int_5);
+top_sbox6 : entity sboxes.top_para_sbox_6
+        Port Map ( i_para_box_data => B_out_5,
+                   o_para_box_data => B_int_6);
 top_sbox7 : entity sboxes.top_para_sbox_7
-    Port Map ( i_para_box_data => B_int(31),
-               o_para_box_data => B_sbox(31));
+        Port Map ( i_para_box_data => B_out_6,
+                   o_para_box_data => B_int_7);
 
--- Dernier keyschedule
-o_ciphertext <= B_sbox(31) xor K32;
-               
+-- Appliquer la clé sur la sortie des S-Boxes
+B_key_0 <= B_int_0 xor K(to_integer(unsigned(i_key_index))*8);
+B_key_1 <= B_int_1 xor K(to_integer(unsigned(i_key_index))*8 + 1);
+B_key_2 <= B_int_2 xor K(to_integer(unsigned(i_key_index))*8 + 2);
+B_key_3 <= B_int_3 xor K(to_integer(unsigned(i_key_index))*8 + 3);
+B_key_4 <= B_int_4 xor K(to_integer(unsigned(i_key_index))*8 + 4);
+B_key_5 <= B_int_5 xor K(to_integer(unsigned(i_key_index))*8 + 5);
+B_key_6 <= B_int_6 xor K(to_integer(unsigned(i_key_index))*8 + 6);
+B_key_7 <= B_int_7 xor K(to_integer(unsigned(i_key_index))*8 + 7);
+
+-- 8 Modules de transformations linéaires en parallèle (0 à 7)
+linear_transform0 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_0,
+                   o_Bk => B_out_0 );
+linear_transform1 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_1,
+                   o_Bk => B_out_1 );
+linear_transform2 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_2,
+                   o_Bk => B_out_2 );
+linear_transform3 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_3,
+                   o_Bk => B_out_3 );
+linear_transform4 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_4,
+                   o_Bk => B_out_4 );
+linear_transform5 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_5,
+                   o_Bk => B_out_5 );
+linear_transform6 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_6,
+                   o_Bk => B_out_6 );
+linear_transform7 : entity transforms.linear_transform
+        Port Map ( i_X => B_key_7,
+                   o_Bk => B_out_7 );
+                   
+-- Divise les 32 rounds en 4 groupes de 8 rounds
+round_register : entity sequential.reg_128bits
+        Port Map ( i_data => B_out_7,
+                   i_init => i_plaintext,
+                   i_reset => i_reset,
+                   i_clk => i_px_clk,
+                   o_data => B_in_0);
+
+o_ciphertext <= intermediate_message;
+
+process (i_reset, i_px_clk) begin
+    if i_reset = '1' then    
+        intermediate_message <= (others => '0');
+    elsif rising_edge(i_px_clk) then
+        if i_key_index = "11" then
+            intermediate_message <= B_key_7 xor K(32);
+        else
+            intermediate_message <= (others => '0');
+        end if;
+    end if;
+end process;
+
 end Behavioral;
