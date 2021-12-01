@@ -75,7 +75,7 @@ sbox0 : entity sboxes.top_para_sbox_0
  
 inv_sbox0 : entity inv_sbox.inv_parallel_sbox_0
     Port Map(  i_para_box_data => outputsbox0,
-           o_para_box_data => output);
+           o_para_box_data => outputinvsbox0);
 
 
 sbox1 : entity sboxes.top_para_sbox_1
