@@ -24,9 +24,6 @@ architecture Behavioral of serpent_encryption_block is
 
 signal intermediate_message : std_logic_vector(127 downto 0);
 
--- Signal d'entré pour les rounds
-signal B_in : std_logic_vector(127 downto 0);
-
 -- Signaux pour les sorties des S-boxes
 signal B_sbox_0 : std_logic_vector(127 downto 0);
 signal B_sbox_1 : std_logic_vector(127 downto 0);
@@ -131,17 +128,7 @@ linear_transform7 : entity transforms.linear_transform
                    o_Bk => B_out_7 );
                    
 -- Divise les 32 rounds en 4 groupes de 8 rounds
-process (i_reset, i_px_clk) begin
-    if i_reset = '1' then
-        o_ciphertext <= (others => '0');
-    elsif rising_edge(i_px_clk) then
-        if i_key_index = "11" then
-            -- Il faut potentiellement inversé
-            o_ciphertext <= B_sbox_7 xor K(32);
-        else
-            o_ciphertext <= B_out_7;
-        end if;
-    end if;
-end process;
+o_ciphertext <= B_sbox_7 xor K(32) when i_key_index = "11" else
+                 B_out_7;
 
 end Behavioral;
