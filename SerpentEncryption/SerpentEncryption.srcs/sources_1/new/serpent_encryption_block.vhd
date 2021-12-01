@@ -27,7 +27,7 @@ signal intermediate_message : std_logic_vector(127 downto 0);
 -- Signal d'entré pour les rounds
 signal B_in : std_logic_vector(127 downto 0);
 
--- Signaux pour les rounds (intermédiaires)
+-- Signaux pour les sorties des S-boxes
 signal B_sbox_0 : std_logic_vector(127 downto 0);
 signal B_sbox_1 : std_logic_vector(127 downto 0);
 signal B_sbox_2 : std_logic_vector(127 downto 0);
@@ -47,7 +47,7 @@ signal B_key_5 : std_logic_vector(127 downto 0);
 signal B_key_6 : std_logic_vector(127 downto 0);
 signal B_key_7 : std_logic_vector(127 downto 0);
 
--- Signaux pour les rounds (sorties)
+-- Signaux pour les sorties de chaque round
 signal B_out_0 : std_logic_vector(127 downto 0);
 signal B_out_1 : std_logic_vector(127 downto 0);
 signal B_out_2 : std_logic_vector(127 downto 0);
@@ -57,7 +57,7 @@ signal B_out_5 : std_logic_vector(127 downto 0);
 signal B_out_6 : std_logic_vector(127 downto 0);
 signal B_out_7 : std_logic_vector(127 downto 0);
 
--- Tableau de signaux pour les clés utilisées pour les rounds
+-- Tableau de signaux pour les clés utilisées de rounds
 type RoundKeys is array (32 downto 0) of std_logic_vector(127 downto 0);
 signal K : RoundKeys;
 
