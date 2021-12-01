@@ -52,12 +52,10 @@ end serpent_decryption_block;
 
 architecture Behavioral of serpent_decryption_block is
 signal B_in : std_logic_vector(127 downto 0);
-signal B_in_first_round: std_logic_vector(127 downto 0);
+
 
 
 -- Signaux pour les rounds inverse sboxes
-signal B_inv_sbox_7_first_round: std_logic_vector(127 downto 0);
-signal B_inv_sbox_7_other_rounds: std_logic_vector(127 downto 0);
 signal B_inv_sbox_7 : std_logic_vector(127 downto 0);
 signal B_inv_sbox_6 : std_logic_vector(127 downto 0);
 signal B_inv_sbox_5 : std_logic_vector(127 downto 0);
@@ -92,7 +90,8 @@ type RoundKeys is array (32 downto 0) of std_logic_vector(127 downto 0);
 signal K : RoundKeys;
 
 begin
-B_in <= i_ciphertext xor K(32);
+B_in <= (i_ciphertext xor K(32)) when i_key_index = "11" else
+         B_inv_lin_7;
 
 
 -- Génération de toutes les clés à partir de 4224 bits
@@ -126,14 +125,11 @@ linear_transform0 : entity transforms.inv_linear_transform
         Port Map ( i_Bk => B_key_1,
                    o_X => B_inv_lin_0);
 
---  inverse S-Boxes  7 first round
-top_sbox7_first_round : entity inv_sbox.inv_parallel_sbox_7
-        Port Map ( i_para_box_data => B_in,
-                   o_para_box_data => B_inv_sbox_7_first_round);
+
 -- 8x32  inverse S-Boxes en parallèle (7 à 0)
 top_sbox7 : entity inv_sbox.inv_parallel_sbox_7
-        Port Map ( i_para_box_data => B_inv_lin_7,
-                   o_para_box_data => B_inv_sbox_7_other_rounds);
+        Port Map ( i_para_box_data => B_in,
+                   o_para_box_data => B_inv_sbox_7);
 top_sbox6 : entity inv_sbox.inv_parallel_sbox_6
         Port Map ( i_para_box_data => B_inv_lin_6,
                    o_para_box_data => B_inv_sbox_6);
@@ -166,19 +162,6 @@ B_key_2 <= B_inv_sbox_2 xor K(to_integer(unsigned(i_key_index))*8 + 2);
 B_key_1 <= B_inv_sbox_1 xor K(to_integer(unsigned(i_key_index))*8 + 1);
 o_plaintext <= B_inv_sbox_0 xor K(to_integer(unsigned(i_key_index))*8);
 
-
--- Divise les 32 rounds en 4 groupes de 8 rounds
-process (i_reset, i_px_clk) begin
-    if i_reset = '1' then
-        --B_in <= (others => '0');
-    elsif rising_edge(i_px_clk) then
-        if i_key_index = "11" then --first decryption round
-            B_inv_sbox_7 <= B_inv_sbox_7_first_round;
-        else
-            B_inv_sbox_7 <= B_inv_sbox_7_other_rounds;
-        end if;
-    end if;
-end process;
 
 
 end Behavioral;

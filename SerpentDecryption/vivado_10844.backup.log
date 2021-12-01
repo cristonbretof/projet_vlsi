@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 27 12:36:10 2021
+# Process ID: 10844
+# Current directory: C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11496 C:\Users\vaill\OneDrive\Bureau\VLSI\projet\projet_vlsi-main\SerpentDecryption\SerpentDecryption.xpr
+# Log file: C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/vivado.log
+# Journal file: C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_linear_transform.vhd w ]
+add_files C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_linear_transform.vhd
+update_compile_order -fileset sources_1
+set_property library transforms [get_files  C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_linear_transform.vhd]
+import_files -norecurse C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentEncryption/SerpentEncryption.srcs/sources_1/new/linear_transform.vhd
+set_property library transforms [get_files  C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/imports/new/linear_transform.vhd]
+update_compile_order -fileset sources_1
+close [ open C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/top_level_linear_transform_chaining.vhd w ]
+add_files C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/top_level_linear_transform_chaining.vhd
+update_compile_order -fileset sources_1
+set_property top top_level_linear_transform_chaining [current_fileset]
+update_compile_order -fileset sources_1
+set_property top top_level_linear_transform_chaining [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_level_linear_transform_chaining' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_level_linear_transform_chaining_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_linear_transform.vhd" into library transforms
+INFO: [VRFC 10-3107] analyzing entity 'inv_linear_transform'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/imports/new/linear_transform.vhd" into library transforms
+INFO: [VRFC 10-3107] analyzing entity 'linear_transform'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/top_level_linear_transform_chaining.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_level_linear_transform_chaining'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 8be40261bb0347d7bc43b2b83e28d2c8 --incr --debug typical --relax --mt 2 -L transforms -L xil_defaultlib -L secureip --snapshot top_level_linear_transform_chaining_behav xil_defaultlib.top_level_linear_transform_chaining -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity transforms.linear_transform [linear_transform_default]
+Compiling architecture behavioral of entity transforms.inv_linear_transform [inv_linear_transform_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_level_linear_transform_chain...
+Built simulation snapshot top_level_linear_transform_chaining_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.sim/sim_1/behav/xsim/xsim.dir/top_level_linear_transform_chaining_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov 27 13:54:31 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vaill/OneDrive/Bureau/VLSI/projet/projet_vlsi-main/SerpentDecryption/SerpentDecryption.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_level_linear_transform_chaining_behav -key {Behavioral:sim_1:Functional:top_level_linear_transform_chaining} -tclbatch {top_level_linear_transform_chaining.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source top_level_linear_transform_chaining.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_level_linear_transform_chaining_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 846.648 ; gain = 42.109
+add_force {/top_level_linear_transform_chaining/input} -radix hex {98trfgijkghjy 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '98trfgijkghjy': Character 't' is not a legal hexadecimal literal for the object's type.
+add_force {/top_level_linear_transform_chaining/input} -radix hex {87646adfc 0ns}
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 28 12:18:58 2021...

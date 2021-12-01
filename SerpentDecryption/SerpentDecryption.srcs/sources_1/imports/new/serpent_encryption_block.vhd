@@ -129,19 +129,8 @@ linear_transform6 : entity transforms.linear_transform
 linear_transform7 : entity transforms.linear_transform
         Port Map ( i_X => B_sbox_7,
                    o_Bk => B_out_7 );
-                   
--- Divise les 32 rounds en 4 groupes de 8 rounds
-process (i_reset, i_px_clk) begin
-    if i_reset = '1' then
-        o_ciphertext <= (others => '0');
-    elsif rising_edge(i_px_clk) then
-        if i_key_index = "11" then
-            -- Il faut potentiellement inversé
-            o_ciphertext <= B_sbox_7 xor K(32);
-        else
-            o_ciphertext <= B_out_7;
-        end if;
-    end if;
-end process;
+
+ o_ciphertext <= B_sbox_7 xor K(32) when i_key_index = "11" else
+                 B_out_7;
 
 end Behavioral;
