@@ -1,0 +1,4 @@
+NumberHits:2
+Timestamp: Sat Aug 25 19:03:41 UTC 2018
+VLNV: xilinx.com:ip:axi_register_slice:2.1
+SynthRuntime: 28

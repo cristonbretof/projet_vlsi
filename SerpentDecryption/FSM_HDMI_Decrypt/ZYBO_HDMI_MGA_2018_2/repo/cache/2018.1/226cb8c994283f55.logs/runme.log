@@ -1,0 +1,466 @@
+
+*** Running vivado
+    with args -log design_1_axis_subset_converter_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_subset_converter_0_1.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axis_subset_converter_0_1.tcl -notrace
+Command: synth_design -top design_1_axis_subset_converter_0_1 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 174776 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 481.746 ; gain = 102.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/synth/design_1_axis_subset_converter_0_1.v:58]
+INFO: [Synth 8-6157] synthesizing module 'top_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/top_design_1_axis_subset_converter_0_1.v:60]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000010011011 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_M_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000010011011 
+	Parameter C_M_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_DEFAULT_TLAST bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axis_subset_converter_v1_1_16_core' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ipshared/3e4d/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000010011011 
+	Parameter C_M_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_SIGNAL_SET bound to: 32'b00000000000000000000000010011011 
+	Parameter C_DEFAULT_TLAST bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TREADY bound to: 0 - type: integer 
+	Parameter G_INDX_SS_TDATA bound to: 1 - type: integer 
+	Parameter G_INDX_SS_TSTRB bound to: 2 - type: integer 
+	Parameter G_INDX_SS_TKEEP bound to: 3 - type: integer 
+	Parameter G_INDX_SS_TLAST bound to: 4 - type: integer 
+	Parameter G_INDX_SS_TID bound to: 5 - type: integer 
+	Parameter G_INDX_SS_TDEST bound to: 6 - type: integer 
+	Parameter G_INDX_SS_TUSER bound to: 7 - type: integer 
+	Parameter G_MASK_SS_TREADY bound to: 1 - type: integer 
+	Parameter G_MASK_SS_TDATA bound to: 2 - type: integer 
+	Parameter G_MASK_SS_TSTRB bound to: 4 - type: integer 
+	Parameter G_MASK_SS_TKEEP bound to: 8 - type: integer 
+	Parameter G_MASK_SS_TLAST bound to: 16 - type: integer 
+	Parameter G_MASK_SS_TID bound to: 32 - type: integer 
+	Parameter G_MASK_SS_TDEST bound to: 64 - type: integer 
+	Parameter G_MASK_SS_TUSER bound to: 128 - type: integer 
+	Parameter G_TASK_SEVERITY_ERR bound to: 2 - type: integer 
+	Parameter G_TASK_SEVERITY_WARNING bound to: 1 - type: integer 
+	Parameter G_TASK_SEVERITY_INFO bound to: 0 - type: integer 
+	Parameter P_SIGNAL_SET_XOR bound to: 32'b00000000000000000000000000000000 
+	Parameter P_SIGNAL_SET_ADD bound to: 32'b00000000000000000000000000000000 
+	Parameter P_SIGNAL_SET_REM bound to: 32'b00000000000000000000000000000000 
+	Parameter P_TLAST_CNTR_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axis_subset_converter_v1_1_16_core' (1#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ipshared/3e4d/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-6157] synthesizing module 'tdata_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tdata_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tdata_design_1_axis_subset_converter_0_1' (2#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tdata_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tuser_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tuser_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tuser_design_1_axis_subset_converter_0_1' (3#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tuser_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tid_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tid_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TID_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tid_design_1_axis_subset_converter_0_1' (4#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tid_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tdest_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tdest_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tdest_design_1_axis_subset_converter_0_1' (5#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tdest_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tstrb_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tstrb_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tstrb_design_1_axis_subset_converter_0_1' (6#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tstrb_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tkeep_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tkeep_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tkeep_design_1_axis_subset_converter_0_1' (7#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tkeep_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6157] synthesizing module 'tlast_design_1_axis_subset_converter_0_1' [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tlast_design_1_axis_subset_converter_0_1.v:48]
+	Parameter C_S_AXIS_TID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'tlast_design_1_axis_subset_converter_0_1' (8#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/tlast_design_1_axis_subset_converter_0_1.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'top_design_1_axis_subset_converter_0_1' (9#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/hdl/top_design_1_axis_subset_converter_0_1.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_subset_converter_0_1' (10#1) [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/synth/design_1_axis_subset_converter_0_1.v:58]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tid[0]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[23]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[22]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[21]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[20]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[19]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[18]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[17]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[16]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[15]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[14]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[13]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[12]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[11]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[10]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[9]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[8]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[7]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[6]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[5]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[4]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[3]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[2]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[1]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdata[0]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tuser[0]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tdest[0]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tkeep[2]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tkeep[1]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tkeep[0]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tstrb[2]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tstrb[1]
+WARNING: [Synth 8-3331] design tlast_design_1_axis_subset_converter_0_1 has unconnected port tstrb[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[23]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[22]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[21]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[20]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[19]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[18]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[17]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[16]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[15]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[14]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[13]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[12]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[11]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[10]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[9]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[8]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[7]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[6]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[5]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[4]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[3]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[2]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[1]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdata[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tuser[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tid[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tdest[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tstrb[2]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tstrb[1]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tstrb[0]
+WARNING: [Synth 8-3331] design tkeep_design_1_axis_subset_converter_0_1 has unconnected port tlast
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[23]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[22]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[21]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[20]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[19]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[18]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[17]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[16]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[15]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[14]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[13]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[12]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[11]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[10]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[9]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[8]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[7]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[6]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[5]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[4]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[3]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[2]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[1]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdata[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tuser[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tid[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tdest[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tkeep[2]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tkeep[1]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tkeep[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tstrb[2]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tstrb[1]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tstrb[0]
+WARNING: [Synth 8-3331] design tstrb_design_1_axis_subset_converter_0_1 has unconnected port tlast
+WARNING: [Synth 8-3331] design tdest_design_1_axis_subset_converter_0_1 has unconnected port tdata[23]
+WARNING: [Synth 8-3331] design tdest_design_1_axis_subset_converter_0_1 has unconnected port tdata[22]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 530.523 ; gain = 151.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 530.523 ; gain = 151.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 530.523 ; gain = 151.219
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/design_1_axis_subset_converter_0_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/Telops/Zybo-Z7-20-HDMI/src/bd/design_1/ip/design_1_axis_subset_converter_0_1/design_1_axis_subset_converter_0_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/Telops/Zybo-Z7-20-HDMI/proj/HDMI.runs/design_1_axis_subset_converter_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Telops/Zybo-Z7-20-HDMI/proj/HDMI.runs/design_1_axis_subset_converter_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 787.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 787.059 ; gain = 407.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 787.059 ; gain = 407.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  D:/Telops/Zybo-Z7-20-HDMI/proj/HDMI.runs/design_1_axis_subset_converter_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 787.059 ; gain = 407.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 787.059 ; gain = 407.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 787.059 ; gain = 407.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 863.945 ; gain = 484.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 863.945 ; gain = 484.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 863.945 ; gain = 484.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+---------------------------------------+------+
+|      |Instance |Module                                 |Cells |
++------+---------+---------------------------------------+------+
+|1     |top      |                                       |     0|
+|2     |  inst   |top_design_1_axis_subset_converter_0_1 |     0|
++------+---------+---------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 865.414 ; gain = 229.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 865.414 ; gain = 486.109
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 891.414 ; gain = 523.758
+INFO: [Common 17-1381] The checkpoint 'D:/Telops/Zybo-Z7-20-HDMI/proj/HDMI.runs/design_1_axis_subset_converter_0_1_synth_1/design_1_axis_subset_converter_0_1.dcp' has been generated.
