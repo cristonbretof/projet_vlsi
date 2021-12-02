@@ -41,8 +41,7 @@ use keyschedule.all;
 --use UNISIM.VComponents.all;
 
 entity serpent_decryption_block is
- Port (    i_px_clk     : in  std_logic;
-           i_reset      : in  std_logic;
+ Port (    i_pixel_clk     : in  std_logic;
            i_key_index  : in  std_logic_vector(1    downto 0);
            i_ciphertext  : in  std_logic_vector(127  downto 0);
            i_key        : in  std_logic_vector(4223 downto 0);

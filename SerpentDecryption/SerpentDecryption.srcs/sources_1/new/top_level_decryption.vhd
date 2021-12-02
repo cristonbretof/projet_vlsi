@@ -36,7 +36,7 @@ use sequential.all;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity top_level_encryption is
+entity top_level_decryption is
     Port ( i_key : in std_logic_vector(127 downto 0);
            i_reset : in std_logic;
            i_start: in std_logic;
@@ -44,9 +44,9 @@ entity top_level_encryption is
            i_plaintext : in std_logic_vector(127 downto 0);
            o_data_ready : out std_logic;
            o_ciphertext : out std_logic_vector(127 downto 0));
-end top_level_encryption;
+end top_level_decryption;
 
-architecture Behavioral of top_level_encryption is
+architecture Behavioral of top_level_decryption is
 signal delay : std_logic;
 
 signal padded_key : std_logic_vector(255 downto 0);
@@ -63,12 +63,12 @@ signal output_message : std_logic_vector(127 downto 0);
 signal reg_input : std_logic_vector(127 downto 0);
 signal reg_output: std_logic_vector(127 downto 0);
 
-component serpent_encryption_block is
+component serpent_decryption_block is
     Port ( i_pixel_clk     : in  std_logic;
            i_key_index  : in  std_logic_vector(1    downto 0);
-           i_plaintext  : in  std_logic_vector(127  downto 0);
+           i_ciphertext  : in  std_logic_vector(127  downto 0);
            i_key        : in  std_logic_vector(4223 downto 0);
-           o_ciphertext : out std_logic_vector(127  downto 0));
+           o_plaintext : out std_logic_vector(127  downto 0));
 end component;
 
 type roundState is (attente, round1, round2, round3, round4, data_ready);
@@ -84,12 +84,12 @@ keyexpansion : entity keyschedule.key_expansion
     Port Map ( i_pad_key => padded_key,
                o_expand_key => expanded_key);
                
-encrypter : serpent_encryption_block
+decrypter : serpent_decryption_block
     Port Map ( i_pixel_clk => i_pixel_clk,
                i_key_index => key_index,
-               i_plaintext => intermediate_message,
+               i_ciphertext => intermediate_message,
                i_key => expanded_key,
-               o_ciphertext => output_message);
+               o_plaintext => output_message);
                
 reg128bit: entity sequential.regNbits 
     generic map (n => 128)
@@ -105,7 +105,7 @@ begin
         state <= attente;
         o_data_ready <= '0';
         o_ciphertext <= (others=>'0');
-        key_index <= "00";
+        key_index <= "11";
         reg_input <= (others=>'0');
         delay <= '0';
         
@@ -115,7 +115,7 @@ begin
                 o_data_ready <= '0';
                 o_ciphertext <= (others=>'0');
                 reg_input <= i_plaintext;
-                key_index <= "00";
+                key_index <= "11";
                 intermediate_message <= reg_output;
                 delay <= '1';
                 if (i_start = '1' and delay = '1') then
@@ -135,7 +135,7 @@ begin
             when round2 =>
                 reg_input <= output_message;
                 intermediate_message <= reg_output;
-                key_index <= "01";
+                key_index <= "10";
                 delay <= '1';
                 if delay = '1' then
                     state <= round3;
@@ -145,7 +145,7 @@ begin
             when round3 =>
                 reg_input <= output_message;
                 intermediate_message <= reg_output;
-                key_index <= "10";
+                key_index <= "01";
                 delay <= '1';
                 if delay = '1' then
                     state <= round4;
@@ -155,7 +155,7 @@ begin
             when round4 =>
                 intermediate_message <= reg_output;
                 reg_input <= output_message;
-                key_index <= "11";
+                key_index <= "00";
                 delay <= '1';
                 if delay = '1' then
                     state <= data_ready;
