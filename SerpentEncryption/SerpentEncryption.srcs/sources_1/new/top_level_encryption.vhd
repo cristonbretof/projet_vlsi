@@ -56,12 +56,13 @@ signal key_index : STD_LOGIC_VECTOR(1 downto 0);
 
 signal input_vector : std_logic_vector(127 downto 0);
 
-signal input_message : std_logic_vector(127 downto 0);
-signal intermediate_message : std_logic_vector(127 downto 0);
-signal output_message : std_logic_vector(127 downto 0);
+signal plaintext_encrypter : std_logic_vector(127 downto 0);
+signal ciphertext_encrypter : std_logic_vector(127 downto 0);
 
-signal reg_input : std_logic_vector(127 downto 0);
-signal reg_output: std_logic_vector(127 downto 0);
+signal input_message : std_logic_vector(127 downto 0);
+signal intermediate_message_1 : std_logic_vector(127 downto 0);
+signal intermediate_message_2 : std_logic_vector(127 downto 0);
+signal intermediate_message_3 : std_logic_vector(127 downto 0);
 
 component serpent_encryption_block is
     Port ( i_pixel_clk     : in  std_logic;
@@ -87,17 +88,11 @@ keyexpansion : entity keyschedule.key_expansion
 encrypter : serpent_encryption_block
     Port Map ( i_pixel_clk => i_pixel_clk,
                i_key_index => key_index,
-               i_plaintext => intermediate_message,
+               i_plaintext => plaintext_encrypter,
                i_key => expanded_key,
-               o_ciphertext => output_message);
+               o_ciphertext => ciphertext_encrypter);
                
-reg128bit: entity sequential.regNbits 
-    generic map (n => 128)
-    port Map( i_data => reg_input,
-               i_init => (others=> '0'),
-               i_reset => i_reset,
-               i_clk  => i_pixel_clk,
-               o_data => reg_output);             
+input_message <= i_plaintext;
 
 process (i_pixel_clk, i_reset)
 begin
@@ -106,7 +101,6 @@ begin
         o_data_ready <= '0';
         o_ciphertext <= (others=>'0');
         key_index <= "00";
-        reg_input <= (others=>'0');
         delay <= '0';
         
     elsif rising_edge(i_pixel_clk) then
@@ -114,57 +108,65 @@ begin
             when attente =>
                 o_data_ready <= '0';
                 o_ciphertext <= (others=>'0');
-                reg_input <= i_plaintext;
                 key_index <= "00";
-                intermediate_message <= reg_output;
                 delay <= '1';
                 if (i_start = '1' and delay = '1') then
+                    plaintext_encrypter <= input_message;
+                    intermediate_message_1 <= ciphertext_encrypter;
                     state <= round1;
                     delay <= '0';
                 end if;
             
             when round1 =>
-                intermediate_message <= reg_output;
-                reg_input <= output_message;
+                plaintext_encrypter <= input_message;
+                intermediate_message_1 <= ciphertext_encrypter;
                 delay <= '1';
                 if delay = '1' then
+                    plaintext_encrypter <= intermediate_message_1;
+                    intermediate_message_2 <= ciphertext_encrypter;
+                    key_index <= "01";
                     state <= round2;
                     delay <= '0';
                 end if;
                 
             when round2 =>
-                reg_input <= output_message;
-                intermediate_message <= reg_output;
-                key_index <= "01";
+                plaintext_encrypter <= intermediate_message_1;
+                intermediate_message_2 <= ciphertext_encrypter;
                 delay <= '1';
                 if delay = '1' then
+                    plaintext_encrypter <= intermediate_message_2;
+                    intermediate_message_3 <= ciphertext_encrypter;
+                    key_index <= "10";
                     state <= round3;
                     delay <= '0';
                 end if;
                 
             when round3 =>
-                reg_input <= output_message;
-                intermediate_message <= reg_output;
-                key_index <= "10";
+                plaintext_encrypter <= intermediate_message_2;
+                intermediate_message_3 <= ciphertext_encrypter;
                 delay <= '1';
                 if delay = '1' then
+                    plaintext_encrypter <= intermediate_message_3;
+                    key_index <= "11";
                     state <= round4;
                     delay <= '0';
                 end if;
                 
             when round4 =>
-                intermediate_message <= reg_output;
-                reg_input <= output_message;
-                key_index <= "11";
+                plaintext_encrypter <= intermediate_message_3;
+                o_ciphertext <= ciphertext_encrypter;
+                o_data_ready <= '1';
                 delay <= '1';
                 if delay = '1' then
                     state <= data_ready;
                     delay <= '0';
                     o_data_ready <= '1';
-                    o_ciphertext <= output_message;
+                    o_ciphertext <= ciphertext_encrypter;
                 end if;
                 
             when data_ready =>
+                o_data_ready <= '1';
+                o_ciphertext <= ciphertext_encrypter;
                 if i_start = '1' then
                     state <= attente;
                 end if;
