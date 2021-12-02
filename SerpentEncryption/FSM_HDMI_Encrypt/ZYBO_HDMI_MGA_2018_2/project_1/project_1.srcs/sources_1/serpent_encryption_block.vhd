@@ -12,11 +12,11 @@ use keyschedule.all;
 use sequential.all;
 
 entity serpent_encryption_block is
-    Port ( i_pixel_clk     : in  std_logic;
-           i_key_index  : in  std_logic_vector(1    downto 0);
-           i_plaintext  : in  std_logic_vector(127  downto 0);
-           i_key        : in  std_logic_vector(4223 downto 0);
-           o_ciphertext : out std_logic_vector(127  downto 0));
+    Port ( i_pixel_clk    : in  std_logic;
+           i_key_index    : in  std_logic_vector(1    downto 0);
+           i_plaintext    : in  std_logic_vector(127  downto 0);
+           i_expanded_key : in  std_logic_vector(4223 downto 0);
+           o_ciphertext   : out std_logic_vector(127  downto 0));
 end serpent_encryption_block;
 
 architecture Behavioral of serpent_encryption_block is
@@ -61,7 +61,7 @@ begin
 
 -- Génération de toutes les clés à partir de 4224 bits
 gen_all_keys : for i in 0 to 32 generate
-    K(i) <= i_key(128*i+127 downto 128*i);
+    K(i) <= i_expanded_key(128*i+127 downto 128*i);
 end generate gen_all_keys;
 
 -- 8x32 S-Boxes en parallèle (0 à 7)

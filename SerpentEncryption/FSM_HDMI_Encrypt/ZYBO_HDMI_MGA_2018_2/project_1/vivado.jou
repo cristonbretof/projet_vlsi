@@ -113,3 +113,218 @@ file mkdir C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Enc
 close [ open C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/Main_Encryption_Module.vhd w ]
 add_files C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/Main_Encryption_Module.vhd
 update_compile_order -fileset sources_1
+open_bd_design {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd}
+open_bd_design {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd}
+add_files -norecurse {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/fsm_buffer_files/FSM_Transmitter.vhd C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/fsm_buffer_files/reg1bit.vhd C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/fsm_buffer_files/regNbit.vhd C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/fsm_buffer_files/shiftNbitRL.vhd}
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference Main_Encryption_Module Main_Encryption_Modu_0
+set_property location {2 476 -113} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {1 140 87} [get_bd_cells dvi2rgb_0]
+set_property location {1 140 -74} [get_bd_cells dvi2rgb_0]
+set_property location {1 127 94} [get_bd_cells dvi2rgb_0]
+set_property location {2 435 -92} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {2 411 -56} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {2 410 -37} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {2 405 37} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {2 402 86} [get_bd_cells Main_Encryption_Modu_0]
+connect_bd_net [get_bd_pins dvi2rgb_0/vid_pData] [get_bd_pins Main_Encryption_Modu_0/RGB_IN]
+connect_bd_net [get_bd_pins dvi2rgb_0/vid_pHSync] [get_bd_pins Main_Encryption_Modu_0/HSYNC_IN]
+connect_bd_net [get_bd_pins dvi2rgb_0/vid_pVSync] [get_bd_pins Main_Encryption_Modu_0/VSYNC_IN]
+connect_bd_net [get_bd_pins dvi2rgb_0/vid_pVDE] [get_bd_pins Main_Encryption_Modu_0/VDE_IN]
+connect_bd_net [get_bd_ports reset] [get_bd_pins Main_Encryption_Modu_0/RESET]
+connect_bd_net [get_bd_pins dvi2rgb_0/PixelClk] [get_bd_pins Main_Encryption_Modu_0/CLK]
+connect_bd_net [get_bd_pins Main_Encryption_Modu_0/RGB_OUT] [get_bd_pins rgb2dvi_0/vid_pData]
+connect_bd_net [get_bd_pins Main_Encryption_Modu_0/HSYNC_OUT] [get_bd_pins rgb2dvi_0/vid_pHSync]
+connect_bd_net [get_bd_pins Main_Encryption_Modu_0/VSYNC_OUT] [get_bd_pins rgb2dvi_0/vid_pVSync]
+connect_bd_net [get_bd_pins Main_Encryption_Modu_0/VDE_OUT] [get_bd_pins rgb2dvi_0/vid_pVDE]
+set_property location {2 444 145} [get_bd_cells Main_Encryption_Modu_0]
+set_property location {2 438 126} [get_bd_cells Main_Encryption_Modu_0]
+delete_bd_objs [get_bd_intf_nets dvi2rgb_0_RGB]
+set_property location {-88 340} [get_bd_ports CLK]
+set_property location {-93 353} [get_bd_ports CLK]
+set_property location {-91 355} [get_bd_ports CLK]
+set_property location {-93 369} [get_bd_ports CLK]
+set_property location {-93 352} [get_bd_ports CLK]
+set_property location {-95 165} [get_bd_ports reset]
+set_property location {-93 113} [get_bd_intf_ports hdmi_in]
+set_property location {-89 93} [get_bd_intf_ports hdmi_in]
+save_bd_design
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run HDMI_bd_Main_Encryption_Modu_0_0_synth_1
+reset_run synth_1
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+reset_run HDMI_bd_Main_Encryption_Modu_0_0_synth_1
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+launch_runs synth_1 -jobs 7
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+current_design synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Main_Encryption_Module [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch Behavioral [get_filesets sim_1]
+set_property top_file C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/Main_Encryption_Module.vhd [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source Main_Encryption_Module.tcl
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {FFFFFF 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/VSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/RESET} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/CLK} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 100 ns
+add_force {/Main_Encryption_Module/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {0 0ns}
+run 100 ns
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {FFFFFF 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+current_sim simulation_2
+close_sim
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+relaunch_sim
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/VSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/RESET} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/CLK} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 100 ns
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/RESET} -radix hex {0 0ns}
+run 100 ns
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {ffffff 0ns}
+run 10 ns
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {0 0ns}
+run 150 ns
+run 160 ns
+run 160 ns
+reset_run synth_1
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+relaunch_sim
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/RESET} -radix hex {1 0ns}
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/VSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/CLK} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 160 ns
+add_force {/Main_Encryption_Module/RGB_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/HSYNC_IN} -radix hex {0 0ns}
+add_force {/Main_Encryption_Module/RESET} -radix hex {0 0ns}
+run 160 ns
+add_force {/Main_Encryption_Module/VDE_IN} -radix hex {1 0ns}
+run 160 ns
+run 160 ns
+run 160 ns
+reset_run synth_1
+update_module_reference HDMI_bd_Main_Encryption_Modu_0_0
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices -disable_eos_check [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]

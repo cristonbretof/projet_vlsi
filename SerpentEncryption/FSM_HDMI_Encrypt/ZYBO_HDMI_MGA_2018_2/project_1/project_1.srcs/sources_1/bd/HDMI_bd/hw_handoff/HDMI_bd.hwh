@@ -1,22 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Oct 14 01:53:55 2019" VIVADOVERSION="2018.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Dec  2 18:12:51 2021" VIVADOVERSION="2018.2.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo-z7-20:part0:1.0" DEVICE="7z020" NAME="HDMI_bd" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
-    <PORT CLKFREQUENCY="125000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_in1"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_0" PORT="reset"/>
-        <CONNECTION INSTANCE="dvi2rgb_0" PORT="aRst"/>
-        <CONNECTION INSTANCE="dvi2rgb_0" PORT="pRst"/>
-        <CONNECTION INSTANCE="rgb2dvi_0" PORT="aRst"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="hdmi_in_clk_p" SIGIS="clk"/>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="hdmi_in_clk_n" SIGIS="clk"/>
     <PORT DIR="I" LEFT="2" NAME="hdmi_in_data_p" RIGHT="0" SIGIS="undef"/>
@@ -31,6 +18,20 @@
     <PORT CLKFREQUENCY="100000000" DIR="O" NAME="hdmi_out_clk_n" SIGIS="clk"/>
     <PORT DIR="O" LEFT="2" NAME="hdmi_out_data_p" RIGHT="0" SIGIS="undef"/>
     <PORT DIR="O" LEFT="2" NAME="hdmi_out_data_n" RIGHT="0" SIGIS="undef"/>
+    <PORT CLKFREQUENCY="125000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_0" PORT="clk_in1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset" SIGIS="rst" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_0" PORT="reset"/>
+        <CONNECTION INSTANCE="dvi2rgb_0" PORT="aRst"/>
+        <CONNECTION INSTANCE="dvi2rgb_0" PORT="pRst"/>
+        <CONNECTION INSTANCE="rgb2dvi_0" PORT="aRst"/>
+        <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="RESET"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="O" LEFT="0" NAME="hdmi_in_hpd" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
       <CONNECTIONS>
         <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
@@ -68,6 +69,68 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
+    <MODULE FULLNAME="/Main_Encryption_Modu_0" HWVERSION="1.0" INSTANCE="Main_Encryption_Modu_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Main_Encryption_Module" VLNV="xilinx.com:module_ref:Main_Encryption_Module:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="depth" VALUE="24"/>
+        <PARAMETER NAME="width" VALUE="16"/>
+        <PARAMETER NAME="Component_Name" VALUE="HDMI_bd_Main_Encryption_Modu_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="23" NAME="RGB_IN" RIGHT="0" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pData">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pData"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="HSYNC_IN" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pHSync">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pHSync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="VSYNC_IN" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVSync">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pVSync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="VDE_IN" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVDE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pVDE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RESET" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="dvi2rgb_0_PixelClk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dvi2rgb_0" PORT="PixelClk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="23" NAME="RGB_OUT" RIGHT="0" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_RGB_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pData"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="HSYNC_OUT" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_HSYNC_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pHSync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="VSYNC_OUT" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_VSYNC_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pVSync"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="VDE_OUT" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_VDE_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pVDE"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
     <MODULE FULLNAME="/clk_wiz_0" HWVERSION="6.0" INSTANCE="clk_wiz_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="clk_wiz" VLNV="xilinx.com:ip:clk_wiz:6.0">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=clk_wiz;v=v6_0;d=pg065-clk-wiz.pdf"/>
@@ -659,7 +722,7 @@
     </MODULE>
     <MODULE FULLNAME="/dvi2rgb_0" HWVERSION="1.8" INSTANCE="dvi2rgb_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dvi2rgb" VLNV="digilentinc.com:ip:dvi2rgb:1.8">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="/home/mathieu/ZYBO_HDMI_MGA_2018_2/repo/vivado-library/ip/dvi2rgb/docs/dvi2rgb.pdf"/>
+        <DOCUMENT SOURCE="c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo/vivado-library/ip/dvi2rgb/docs/dvi2rgb.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="kEmulateDDC" VALUE="true"/>
@@ -692,27 +755,28 @@
         </PORT>
         <PORT DIR="O" LEFT="23" NAME="vid_pData" RIGHT="0" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pData">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pData"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="RGB_IN"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="vid_pVDE" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVDE">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pVDE"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="VDE_IN"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="vid_pHSync" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pHSync">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pHSync"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="HSYNC_IN"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="vid_pVSync" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVSync">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="rgb2dvi_0" PORT="vid_pVSync"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="VSYNC_IN"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="PixelClk" SIGIS="clk" SIGNAME="dvi2rgb_0_PixelClk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="rgb2dvi_0" PORT="PixelClk"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="CLK"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="aPixelClkLckd" SIGIS="undef"/>
@@ -737,7 +801,7 @@
             <PORTMAP LOGICAL="DATA_N" PHYSICAL="TMDS_Data_n"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="dvi2rgb_0_RGB" NAME="RGB" TYPE="INITIATOR" VLNV="xilinx.com:interface:vid_io:1.0">
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="RGB" TYPE="INITIATOR" VLNV="xilinx.com:interface:vid_io:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="DATA" PHYSICAL="vid_pData"/>
             <PORTMAP LOGICAL="HSYNC" PHYSICAL="vid_pHSync"/>
@@ -759,7 +823,7 @@
     </MODULE>
     <MODULE FULLNAME="/rgb2dvi_0" HWVERSION="1.4" INSTANCE="rgb2dvi_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="rgb2dvi" VLNV="digilentinc.com:ip:rgb2dvi:1.4">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="/home/mathieu/ZYBO_HDMI_MGA_2018_2/repo/vivado-library/ip/rgb2dvi/docs/rgb2dvi.pdf"/>
+        <DOCUMENT SOURCE="c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo/vivado-library/ip/rgb2dvi/docs/rgb2dvi.pdf"/>
       </DOCUMENTS>
       <PARAMETERS>
         <PARAMETER NAME="kGenerateSerialClk" VALUE="true"/>
@@ -784,24 +848,24 @@
             <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="23" NAME="vid_pData" RIGHT="0" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pData">
+        <PORT DIR="I" LEFT="23" NAME="vid_pData" RIGHT="0" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_RGB_OUT">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pData"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="RGB_OUT"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="vid_pVDE" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVDE">
+        <PORT DIR="I" NAME="vid_pVDE" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_VDE_OUT">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pVDE"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="VDE_OUT"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="vid_pHSync" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pHSync">
+        <PORT DIR="I" NAME="vid_pHSync" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_HSYNC_OUT">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pHSync"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="HSYNC_OUT"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="vid_pVSync" SIGIS="undef" SIGNAME="dvi2rgb_0_vid_pVSync">
+        <PORT DIR="I" NAME="vid_pVSync" SIGIS="undef" SIGNAME="Main_Encryption_Modu_0_VSYNC_OUT">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="dvi2rgb_0" PORT="vid_pVSync"/>
+            <CONNECTION INSTANCE="Main_Encryption_Modu_0" PORT="VSYNC_OUT"/>
           </CONNECTIONS>
         </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="I" NAME="PixelClk" SIGIS="clk" SIGNAME="dvi2rgb_0_PixelClk">
@@ -819,7 +883,7 @@
             <PORTMAP LOGICAL="DATA_N" PHYSICAL="TMDS_Data_n"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="dvi2rgb_0_RGB" NAME="RGB" TYPE="TARGET" VLNV="xilinx.com:interface:vid_io:1.0">
+        <BUSINTERFACE BUSNAME="__NOC__" NAME="RGB" TYPE="TARGET" VLNV="xilinx.com:interface:vid_io:1.0">
           <PORTMAPS>
             <PORTMAP LOGICAL="DATA" PHYSICAL="vid_pData"/>
             <PORTMAP LOGICAL="HSYNC" PHYSICAL="vid_pHSync"/>

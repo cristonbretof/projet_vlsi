@@ -37,6 +37,13 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 # To test this script, run the following commands from Vivado Tcl console:
 # source HDMI_bd_script.tcl
 
+
+# The design that will be created by this Tcl script contains the following 
+# module references:
+# Main_Encryption_Module
+
+# Please add the sources of those modules before sourcing this Tcl script.
+
 # If there is no project opened, this script will create a
 # project, but make sure you do not have an existing project
 # <./myproj/project_1.xpr> in the current working folder.
@@ -171,6 +178,17 @@ proc create_root_design { parentCell } {
    CONFIG.POLARITY {ACTIVE_HIGH} \
  ] $reset
 
+  # Create instance: Main_Encryption_Modu_0, and set properties
+  set block_name Main_Encryption_Module
+  set block_cell_name Main_Encryption_Modu_0
+  if { [catch {set Main_Encryption_Modu_0 [create_bd_cell -type module -reference $block_name $block_cell_name] } errmsg] } {
+     catch {common::send_msg_id "BD_TCL-105" "ERROR" "Unable to add referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
+     return 1
+   } elseif { $Main_Encryption_Modu_0 eq "" } {
+     catch {common::send_msg_id "BD_TCL-106" "ERROR" "Unable to referenced block <$block_name>. Please add the files for ${block_name}'s definition into the project."}
+     return 1
+   }
+  
   # Create instance: clk_wiz_0, and set properties
   set clk_wiz_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:6.0 clk_wiz_0 ]
   set_property -dict [ list \
@@ -210,15 +228,22 @@ proc create_root_design { parentCell } {
 
   # Create interface connections
   connect_bd_intf_net -intf_net dvi2rgb_0_DDC [get_bd_intf_ports hdmi_in_ddc] [get_bd_intf_pins dvi2rgb_0/DDC]
-  connect_bd_intf_net -intf_net dvi2rgb_0_RGB [get_bd_intf_pins dvi2rgb_0/RGB] [get_bd_intf_pins rgb2dvi_0/RGB]
   connect_bd_intf_net -intf_net hdmi_in_1 [get_bd_intf_ports hdmi_in] [get_bd_intf_pins dvi2rgb_0/TMDS]
   connect_bd_intf_net -intf_net rgb2dvi_0_TMDS [get_bd_intf_ports hdmi_out] [get_bd_intf_pins rgb2dvi_0/TMDS]
 
   # Create port connections
   connect_bd_net -net CLK_1 [get_bd_ports CLK] [get_bd_pins clk_wiz_0/clk_in1]
+  connect_bd_net -net Main_Encryption_Modu_0_HSYNC_OUT [get_bd_pins Main_Encryption_Modu_0/HSYNC_OUT] [get_bd_pins rgb2dvi_0/vid_pHSync]
+  connect_bd_net -net Main_Encryption_Modu_0_RGB_OUT [get_bd_pins Main_Encryption_Modu_0/RGB_OUT] [get_bd_pins rgb2dvi_0/vid_pData]
+  connect_bd_net -net Main_Encryption_Modu_0_VDE_OUT [get_bd_pins Main_Encryption_Modu_0/VDE_OUT] [get_bd_pins rgb2dvi_0/vid_pVDE]
+  connect_bd_net -net Main_Encryption_Modu_0_VSYNC_OUT [get_bd_pins Main_Encryption_Modu_0/VSYNC_OUT] [get_bd_pins rgb2dvi_0/vid_pVSync]
   connect_bd_net -net clk_wiz_0_clk_out1 [get_bd_pins clk_wiz_0/clk_out1] [get_bd_pins dvi2rgb_0/RefClk]
-  connect_bd_net -net dvi2rgb_0_PixelClk [get_bd_pins dvi2rgb_0/PixelClk] [get_bd_pins rgb2dvi_0/PixelClk]
-  connect_bd_net -net reset_1 [get_bd_ports reset] [get_bd_pins clk_wiz_0/reset] [get_bd_pins dvi2rgb_0/aRst] [get_bd_pins dvi2rgb_0/pRst] [get_bd_pins rgb2dvi_0/aRst]
+  connect_bd_net -net dvi2rgb_0_PixelClk [get_bd_pins Main_Encryption_Modu_0/CLK] [get_bd_pins dvi2rgb_0/PixelClk] [get_bd_pins rgb2dvi_0/PixelClk]
+  connect_bd_net -net dvi2rgb_0_vid_pData [get_bd_pins Main_Encryption_Modu_0/RGB_IN] [get_bd_pins dvi2rgb_0/vid_pData]
+  connect_bd_net -net dvi2rgb_0_vid_pHSync [get_bd_pins Main_Encryption_Modu_0/HSYNC_IN] [get_bd_pins dvi2rgb_0/vid_pHSync]
+  connect_bd_net -net dvi2rgb_0_vid_pVDE [get_bd_pins Main_Encryption_Modu_0/VDE_IN] [get_bd_pins dvi2rgb_0/vid_pVDE]
+  connect_bd_net -net dvi2rgb_0_vid_pVSync [get_bd_pins Main_Encryption_Modu_0/VSYNC_IN] [get_bd_pins dvi2rgb_0/vid_pVSync]
+  connect_bd_net -net reset_1 [get_bd_ports reset] [get_bd_pins Main_Encryption_Modu_0/RESET] [get_bd_pins clk_wiz_0/reset] [get_bd_pins dvi2rgb_0/aRst] [get_bd_pins dvi2rgb_0/pRst] [get_bd_pins rgb2dvi_0/aRst]
   connect_bd_net -net xlconstant_0_dout [get_bd_ports hdmi_in_hpd] [get_bd_pins xlconstant_0/dout]
 
   # Create address segments

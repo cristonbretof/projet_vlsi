@@ -37,7 +37,7 @@ use sequential.all;
 --use UNISIM.VComponents.all;
 
 entity top_level_encryption is
-    Port ( i_key : in std_logic_vector(127 downto 0);
+    Port ( i_expanded_key : in std_logic_vector(4223 downto 0);
            i_reset : in std_logic;
            i_start: in std_logic;
            i_pixel_clk : in std_logic;
@@ -48,9 +48,6 @@ end top_level_encryption;
 
 architecture Behavioral of top_level_encryption is
 signal delay : std_logic;
-
-signal padded_key : std_logic_vector(255 downto 0);
-signal expanded_key : std_logic_vector(4223 downto 0);
 
 signal key_index : STD_LOGIC_VECTOR(1 downto 0);
 
@@ -65,33 +62,24 @@ signal intermediate_message_2 : std_logic_vector(127 downto 0);
 signal intermediate_message_3 : std_logic_vector(127 downto 0);
 
 component serpent_encryption_block is
-    Port ( i_pixel_clk     : in  std_logic;
-           i_key_index  : in  std_logic_vector(1    downto 0);
-           i_plaintext  : in  std_logic_vector(127  downto 0);
-           i_key        : in  std_logic_vector(4223 downto 0);
-           o_ciphertext : out std_logic_vector(127  downto 0));
+    Port ( i_pixel_clk    : in  std_logic;
+           i_key_index    : in  std_logic_vector(1    downto 0);
+           i_plaintext    : in  std_logic_vector(127  downto 0);
+           i_expanded_key : in  std_logic_vector(4223 downto 0);
+           o_ciphertext   : out std_logic_vector(127  downto 0));
 end component;
 
 type roundState is (attente, round1, round2, round3, round4, data_ready);
 signal state : roundState;
 
 begin
-
-keypad : entity keyschedule.key_padding
-    Port Map ( i_key => i_key,
-               o_pad_key => padded_key);
-               
-keyexpansion : entity keyschedule.key_expansion
-    Port Map ( i_pad_key => padded_key,
-               o_expand_key => expanded_key);
                
 encrypter : serpent_encryption_block
     Port Map ( i_pixel_clk => i_pixel_clk,
                i_key_index => key_index,
                i_plaintext => plaintext_encrypter,
-               i_key => expanded_key,
+               i_expanded_key => i_expanded_key,
                o_ciphertext => ciphertext_encrypter);
-               
 input_message <= i_plaintext;
 
 process (i_pixel_clk, i_reset)
@@ -155,6 +143,7 @@ begin
             when round4 =>
                 plaintext_encrypter <= intermediate_message_3;
                 o_ciphertext <= ciphertext_encrypter;
+--                o_ciphertext <= i_plaintext;
                 o_data_ready <= '1';
                 delay <= '1';
                 if delay = '1' then
@@ -162,11 +151,13 @@ begin
                     delay <= '0';
                     o_data_ready <= '1';
                     o_ciphertext <= ciphertext_encrypter;
+--                    o_ciphertext <= i_plaintext;
                 end if;
                 
             when data_ready =>
                 o_data_ready <= '1';
                 o_ciphertext <= ciphertext_encrypter;
+--                o_ciphertext <= i_plaintext;
                 if i_start = '1' then
                     state <= attente;
                 end if;

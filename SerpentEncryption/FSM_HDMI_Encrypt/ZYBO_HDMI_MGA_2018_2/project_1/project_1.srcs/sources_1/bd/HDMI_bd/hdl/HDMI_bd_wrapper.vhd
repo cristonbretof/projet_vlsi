@@ -1,8 +1,8 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Mon Oct 14 01:53:53 2019
---Host        : mathieu-Inspiron-17-7779 running 64-bit Ubuntu 18.04.3 LTS
+--Tool Version: Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
+--Date        : Thu Dec  2 18:12:51 2021
+--Host        : pcetu-136 running 64-bit major release  (build 9200)
 --Command     : generate_target HDMI_bd_wrapper.bd
 --Design      : HDMI_bd_wrapper
 --Purpose     : IP block netlist
@@ -32,8 +32,6 @@ end HDMI_bd_wrapper;
 architecture STRUCTURE of HDMI_bd_wrapper is
   component HDMI_bd is
   port (
-    CLK : in STD_LOGIC;
-    reset : in STD_LOGIC;
     hdmi_in_clk_p : in STD_LOGIC;
     hdmi_in_clk_n : in STD_LOGIC;
     hdmi_in_data_p : in STD_LOGIC_VECTOR ( 2 downto 0 );
@@ -48,6 +46,8 @@ architecture STRUCTURE of HDMI_bd_wrapper is
     hdmi_out_clk_n : out STD_LOGIC;
     hdmi_out_data_p : out STD_LOGIC_VECTOR ( 2 downto 0 );
     hdmi_out_data_n : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    CLK : in STD_LOGIC;
+    reset : in STD_LOGIC;
     hdmi_in_hpd : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component HDMI_bd;
