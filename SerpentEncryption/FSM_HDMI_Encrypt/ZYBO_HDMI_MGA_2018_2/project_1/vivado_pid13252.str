@@ -2472,3 +2472,927 @@ selectCodeEditor("Main_Encryption_Module.vhd", 128, 398); // ce (w, ck)
 selectCodeEditor("Main_Encryption_Module.vhd", 389, 215); // ce (w, ck)
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 429 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 804 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 184, 220); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 88, 516); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 550, 521); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 556, 244); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 381, 227); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 381, 227, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 381, 227); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 422, 220); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 447, 217); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 545, 219); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 79, 386); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 79, 392); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 273, 284); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 309, 170); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 315); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 315, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 321); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 150, 310); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 404, 433); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 6, 314); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 396, 320); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 239, 342); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 366, 301); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 148, 267); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 462, 247); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 229); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 229, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 433, 295, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 77, 417); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 83, 434); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 83, 434, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 183, 430); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 183, 430, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 191, 213); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 191, 213, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 401); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 401, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 386); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 386, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 185, 315); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 185, 315, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 450); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 450, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 220, 423); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 220, 423, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 406, 340); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 106, 237); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 102, 284); // ce (w, ck)
+// Elapsed time: 109 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 139, 294); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 337, 282); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 163, 295); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 69, 332); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 347); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 169, 349); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 342, 301); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 299, 352); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 94, 369); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 143, 403); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 122, 203); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 84, 202); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 121, 210); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 55, 402); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 3, 395); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 29, 417); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 882 MB. GUI used memory: 66 MB. Current time: 12/2/21 2:49:15 PM EST
+// Elapsed time: 19 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 95, 311); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 89, 310); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 94, 311); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 132, 319); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 236, 316); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 290); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 263, 318); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 266, 317); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 250, 312); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 69, 454); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 167, 392); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 167, 243); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 263, 295); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 245, false, false, true, false, false); // ce (w, ck) - Alt Key
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 166, 126, false, false, true, false, false); // ce (w, ck) - Alt Key
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 133, 297); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 7, 299); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 2, 302); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 218, 309, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 231, 278, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 381); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 381, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 176, 337); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 176, 337, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 456); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 456, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 187, 471); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 187, 471, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 448); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 448, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 448); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 230, 433, false, false, true, false, false); // ce (w, ck) - Alt Key
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 91, 338); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 91, 338, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 342); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 342, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 170, 210); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 170, 210, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 94); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 94, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 180, 78); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 180, 78, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 197, 452); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 197, 452, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 52 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 206, 450); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 206, 450, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 164, 368); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 164, 368, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 60 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 98, 243); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 98, 243, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 150, 344); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 159, 371); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 159, 371, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 111, 151); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 111, 151, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 139, 366); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 139, 366, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 140, 345); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 137, 360); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 121, 419); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 194, 416); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 194, 416, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 219, 430, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 94, 108); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 94, 108, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 187, 314); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 187, 314, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 295, 321); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 220, 345); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 171, 352); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 171, 352, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 161, 279); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 352, 271); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 349); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 172, 349, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 105, 347); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 105, 347, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 164, 348); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 164, 348, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 308, 363); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 165, 319); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 128, 273); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 139, 348); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 103, 214); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 103, 214, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 266, 348); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 255, 348); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 446, 257); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 73, 352); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 73, 352, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 298); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 197, 299); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 155, 297); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 155, 297, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 232, 312); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 384, 269); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 239, 289); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 240, 272); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 236, 250); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 118 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 106, 198); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 227); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 93, 236); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 93, 230); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 123, 198); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 256, 210); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 49, 225); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 98, 360); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 225, 316); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 70, 397); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 68, 402); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 348, 327); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 2, 384); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 1, 401); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 316, 345); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 296, 451); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 501, 271); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 217, 368); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 217, 368, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 163, 400); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 163, 400, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 199, 246); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 199, 246, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 290, 230); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 295); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 295, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 202, 246); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 202, 246, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 278, 230); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 245, 267); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 195, 210); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 195, 210, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 221, 194); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 221, 194, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 215, 199); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 215, 199, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 197); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 197, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 404); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 404, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 357, 329); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 121, 332); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 116, 281); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 116, 281, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 121, 285); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 121, 285, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 192, 254); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 317, 242); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 363, 214); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 106, 281); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 113, 277); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 113, 277, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 192, 312); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 192, 312, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 333, 296); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 396); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 320, 450); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 267, 452); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 267, 452, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 359, 448); // ce (w, ck)
+// Elapsed time: 56 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 185); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 396, 248); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 396, 243); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 181, 260); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 380, 242); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 446, 268); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 312, 262); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 334, 262); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 501, 226); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 85, 263); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 85, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 364, 265); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 546, 188); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 324, 271); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 324, 271, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 359, 279); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 261); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 261, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 364); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 364, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 409 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 370, 367); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 426, 364); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 125 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 547, 332); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 413, 341); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 373, 366); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 503, 365); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 376, 363); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 507, 300); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 375, 360); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 425, 365); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 433, 289); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 481, 364); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 579, 305); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 451, 330); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 485, 361); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 504, 338); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 379, 367); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 383, 364); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 431, 366); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 429, 370); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 457, 359); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 507, 259); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 413, 354); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 413, 354, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 412, 361); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 412, 361, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 330, 313); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 472, 244); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 354, 286); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 369, 309); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 438, 268); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 382, 316); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 109, 131); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 109, 131, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 241, 298); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 271, 315); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 263, 367); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 252, 364); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 252, 364, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 467, 159); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 65, 176); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 65, 176); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 54, 178); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 245, 127); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 357, 279); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 233, 127); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 181, 349); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 136, 347); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 136, 347, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 3, 384); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 78, 379); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 78, 379, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 74, 380); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 285, 310); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 27, 397); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 397, 313); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 901 MB (+275kb) [03:04:05]
+selectCodeEditor("Main_Encryption_Module.vhd", 208, 380); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 208, 380, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 224, 131); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 224, 129, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 209, 386); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 209, 386, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 215, 418); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 215, 418, false, false, false, false, true); // ce (w, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 905 MB. GUI used memory: 66 MB. Current time: 12/2/21 3:15:11 PM EST
+selectCodeEditor("Main_Encryption_Module.vhd", 110, 120); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 110, 120, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 411); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 411, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 243, 450); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 243, 450, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 295, 401, false, true, false, false, false); // ce (w, ck) - Control Key
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main_Encryption_Module.vhd", 240, 418); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 240, 418, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 331, 394); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 265, 287); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 71, 123); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 71, 123, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 227, 451); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 227, 451, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 346, 421); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 416); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 416, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 258, 415); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 159); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 349, 416); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 363, 315); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 229, 413); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 229, 413, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 202, 471); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 202, 471, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 397); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 97, 397, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 418); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 418, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 281, 396); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 240, 435); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 240, 435, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 234, 430); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 234, 430, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 364, 320); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 229, 365); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 229, 365, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 193, 381); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 194, 366); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 402, 337); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 395, 361); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 363, 312); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 305, 410); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 415); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 415, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 418); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 219, 415); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 226, 416); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 342, 319); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 401); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 401, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 316, 179); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 306, 400); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 537, 319); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 533, 404); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 535, 311); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 446, 402); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 401, 427); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 125, 267); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 125, 267, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 298); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 414, 233); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 414, 233, false, false, true, false, false); // ce (w, ck) - Alt Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 304, 428); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 200, 415); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 200, 415, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 519); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 519, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 184); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 223, 184, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 412); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 412, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 434); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 434, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 219, 213); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 438); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 438, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 190, 438); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 196, 426); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 196, 426, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 456, 170); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 79, 193); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 79, 193, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 214, 332); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 243, 332, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 394, 330); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 186, 398); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 186, 397, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 255, 378); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 367); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 367, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 87, 230, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 264, 196); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 264, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 171, 313); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 171, 313, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 274, 337); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 189, 336); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 189, 336, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 241, 92); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 265, 237); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 338, 136, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 491, 124); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 491, 106); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 476, 112); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 481, 112); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 168, 122); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 152, 126); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 123, 129); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 123, 129, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 178, 406); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 406, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 258, 330); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 230, 369, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 466, 277); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 473, 277); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 476, 283); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 117, 293); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 131, 294); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 141, 295); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 101, 303); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 108, 296); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 122, 296); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 122, 296, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 185, 348); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 185, 348, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 193, 329); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 191, 329, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 237, 319, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 245, 373); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 500, 371); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 383, 392); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 127, 400); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 181, 414); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 90, 420); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 90, 420, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 314); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 178, 314, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 189, 298); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 189, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 141); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 141, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 306); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 306, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 184, 292); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 184, 292, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 347); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 188, 347, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 283, 317); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 249, 310); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 196, 356); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 195, 352, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 195, 352); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 289, 299); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 354); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 177, 354, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 303, 291); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 349); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 349, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 179, 349); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 181, 350); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 181, 350, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 234, 379); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 234, 379, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 271, 161); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 271, 161, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 253, 381); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 253, 381, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 253, 381); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 249, 387); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 249, 387, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 249, 387); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 241, 382); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 384); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 384, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 384); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 230, 384); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 234, 384); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 256, 382); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 256, 382, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 297); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 297, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 411, 212); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 347, 261); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 191, 375); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 236, 440); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 352, 436); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 222, 455); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 334, 502); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 199, 444); // ce (w, ck)
+// Elapsed time: 145 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 390); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 280, 380); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 349, 496); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 193, 533); // ce (w, ck)
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 391, 508); // ce (w, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // V (q, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 451, 270, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectCodeEditor("Main_Encryption_Module.vhd", 376, 108); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 317, 200); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 164, 175); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 154, 201); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 154, 201, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 151, 178); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 176); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 150, 126); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 152, 126, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 144, 124); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 175, 128); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 146); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 205, 146, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 218, 501); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 192, 351); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 249, 510); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 295, 280); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 182, 352); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 185, 149); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 178, 94); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 339, 311); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 464, 492); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main_Encryption_Module.vhd", 444, 412); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 220, 283); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 220, 283, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 11, 250); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 25, 236); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 98, 229); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 40, 240); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 327, 216); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 481, 226); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 579, 222); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 211, 221); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 227, 223); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 266, 227); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 528, 234); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 536, 229); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 584, 244); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 99, 298); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 99, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 209, 181); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 209, 181, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Main_Encryption_Module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main_Encryption_Module.vhd", 332, 184); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Main_Encryption_Module.vhd", 336, 254); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 313, 196); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 233); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 228, 231, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 428, 194); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 410, 319); // ce (w, ck)
