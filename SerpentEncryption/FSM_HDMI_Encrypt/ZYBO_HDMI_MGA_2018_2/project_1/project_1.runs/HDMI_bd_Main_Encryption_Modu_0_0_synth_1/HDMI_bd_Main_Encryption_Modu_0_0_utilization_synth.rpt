@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date         : Thu Dec  2 18:17:37 2021
+| Date         : Thu Dec  2 19:14:33 2021
 | Host         : pcetu-136 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file HDMI_bd_Main_Encryption_Modu_0_0_utilization_synth.rpt -pb HDMI_bd_Main_Encryption_Modu_0_0_utilization_synth.pb
 | Design       : HDMI_bd_Main_Encryption_Modu_0_0
@@ -57,9 +57,9 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
-| 2020  |          Yes |           - |        Reset |
+| 3556  |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 1539  |          Yes |       Reset |            - |
+| 3     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -148,14 +148,14 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     | 3802 |                 LUT |
-| LUT4     | 2892 |                 LUT |
-| FDCE     | 2020 |        Flop & Latch |
+| LUT6     | 3796 |                 LUT |
+| FDCE     | 3556 |        Flop & Latch |
+| LUT4     | 2898 |                 LUT |
 | LUT5     | 1647 |                 LUT |
-| FDRE     | 1539 |        Flop & Latch |
 | LUT3     | 1086 |                 LUT |
 | LUT2     |  583 |                 LUT |
 | SRLC32E  |    3 |  Distributed Memory |
+| FDRE     |    3 |        Flop & Latch |
 +----------+------+---------------------+
 
 

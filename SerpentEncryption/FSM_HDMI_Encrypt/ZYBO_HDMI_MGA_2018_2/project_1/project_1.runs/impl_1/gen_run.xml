@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638487115">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638490517">
   <File Type="BITSTR-BMM" Name="HDMI_bd_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="HDMI_bd_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="HDMI_bd_wrapper_timing_summary_init.rpt"/>

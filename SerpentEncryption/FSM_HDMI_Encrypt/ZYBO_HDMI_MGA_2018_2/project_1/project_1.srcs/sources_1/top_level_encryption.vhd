@@ -51,8 +51,6 @@ signal delay : std_logic;
 
 signal key_index : STD_LOGIC_VECTOR(1 downto 0);
 
-signal input_vector : std_logic_vector(127 downto 0);
-
 signal plaintext_encrypter : std_logic_vector(127 downto 0);
 signal ciphertext_encrypter : std_logic_vector(127 downto 0);
 
@@ -91,6 +89,11 @@ begin
         key_index <= "00";
         delay <= '0';
         
+        plaintext_encrypter <= (others => '0');
+        intermediate_message_1 <= (others => '0');
+        intermediate_message_2 <= (others => '0');
+        intermediate_message_3 <= (others => '0');
+        
     elsif rising_edge(i_pixel_clk) then
         case state is
             when attente =>
@@ -103,6 +106,8 @@ begin
                     intermediate_message_1 <= ciphertext_encrypter;
                     state <= round1;
                     delay <= '0';
+                else
+                    state <= attente;
                 end if;
             
             when round1 =>

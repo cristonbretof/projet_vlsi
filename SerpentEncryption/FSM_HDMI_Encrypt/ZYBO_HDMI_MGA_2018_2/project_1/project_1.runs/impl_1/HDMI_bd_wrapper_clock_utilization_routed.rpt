@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date         : Thu Dec  2 18:20:34 2021
+| Date         : Thu Dec  2 19:17:17 2021
 | Host         : pcetu-136 running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file HDMI_bd_wrapper_clock_utilization_routed.rpt
 | Design       : HDMI_bd_wrapper
@@ -52,7 +52,7 @@ Table of Contents
 +-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+------------------------------+----------------------------------------------------------------------------+--------------------------------------------------------------+
 | g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y17 | n/a          |                 3 |        3733 |               0 |              |                              | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/InstBUFG/O              | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK       |
 | g1        | src1      | BUFR/O          | None       | BUFR_X1Y5      | X1Y1         |                 2 |         322 |               1 |              |                              | HDMI_bd_i/dvi2rgb_0/U0/TMDS_ClockingX/PixelClkBuffer/O                     | HDMI_bd_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[1]     |
-| g2        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |                 2 |         166 |               0 |        5.000 | clk_out1_HDMI_bd_clk_wiz_0_0 | HDMI_bd_i/clk_wiz_0/inst/clkout1_buf/O                                     | HDMI_bd_i/clk_wiz_0/inst/clk_out1                            |
+| g2        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |                 1 |         166 |               0 |        5.000 | clk_out1_HDMI_bd_clk_wiz_0_0 | HDMI_bd_i/clk_wiz_0/inst/clkout1_buf/O                                     | HDMI_bd_i/clk_wiz_0/inst/clk_out1                            |
 | g3        | src3      | BUFR/O          | None       | BUFR_X1Y9      | X1Y2         |                 1 |           8 |               0 |              |                              | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/GenMMCM.PixelClkBuffer/O | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/TMDS_Clk_n |
 | g4        | src2      | BUFG/O          | None       | BUFGCTRL_X0Y18 | n/a          |                 1 |           1 |               0 |        8.000 | clkfbout_HDMI_bd_clk_wiz_0_0 | HDMI_bd_i/clk_wiz_0/inst/clkf_buf/O                                        | HDMI_bd_i/clk_wiz_0/inst/clkfbout_buf_HDMI_bd_clk_wiz_0_0    |
 | g5        | src3      | BUFR/O          | None       | BUFR_X1Y8      | X1Y2         |                 1 |           1 |               0 |              |                              | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/GenMMCM.Deskew/O         | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/CLKFBIN    |
@@ -87,11 +87,11 @@ Table of Contents
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | X0Y0              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  2500 |    0 |  1000 |    0 |    60 |    0 |    30 |    0 |    60 |
-| X1Y0              |    2 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  833 |  3200 |  380 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X1Y0              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  992 |  3200 |  462 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 | X0Y1              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y1              |    4 |    12 |    1 |     4 |    0 |     2 |    1 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    6 |    50 |    0 |    50 | 1977 |  2600 |  843 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X1Y1              |    4 |    12 |    1 |     4 |    0 |     2 |    1 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    6 |    50 |    0 |    50 | 1902 |  2600 |  751 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 | X0Y2              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y2              |    5 |    12 |    2 |     4 |    0 |     2 |    1 |     4 |    1 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    8 |    50 | 1391 |  2600 |  538 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X1Y2              |    5 |    12 |    2 |     4 |    0 |     2 |    1 |     4 |    1 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    8 |    50 | 1307 |  2600 |  449 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * Global Clock column represents track count; while other columns represents cell counts
 
@@ -105,7 +105,7 @@ All Modules
 +----+----+----+
 | Y2 |  0 |  5 |
 | Y1 |  0 |  4 |
-| Y0 |  0 |  2 |
+| Y0 |  0 |  1 |
 +----+----+----+
 
 
@@ -126,9 +126,9 @@ All Modules
 +----+----+-------+
 |    | X0 | X1    |
 +----+----+-------+
-| Y2 |  0 |  1395 |
-| Y1 |  0 |  1534 |
-| Y0 |  0 |   804 |
+| Y2 |  0 |  1311 |
+| Y1 |  0 |  1430 |
+| Y0 |  0 |   992 |
 +----+----+-------+
 
 
@@ -173,8 +173,8 @@ All Modules
 |    | X0 | X1   |
 +----+----+------+
 | Y2 |  0 |    0 |
-| Y1 |  0 |  137 |
-| Y0 |  0 |   29 |
+| Y1 |  0 |  166 |
+| Y0 |  0 |    0 |
 +----+----+------+
 
 
@@ -253,8 +253,7 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                    |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         804 |               0 | 804 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK |
-| g2        | n/a   | BUFG/O          | None       |          29 |               0 |  29 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/clk_wiz_0/inst/clk_out1                      |
+| g0        | n/a   | BUFG/O          | None       |         992 |               0 | 992 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
@@ -267,9 +266,9 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+----------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                      |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+----------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        1534 |               0 | 1534 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK   |
+| g0        | n/a   | BUFG/O          | None       |        1430 |               0 | 1430 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK   |
 | g1        | n/a   | BUFR/O          | None       |         316 |               0 |  307 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/TMDS_ClockingX/oSyncStages_reg[1] |
-| g2        | n/a   | BUFG/O          | None       |         137 |               0 |  136 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/clk_wiz_0/inst/clk_out1                        |
+| g2        | n/a   | BUFG/O          | None       |         166 |               0 |  165 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/clk_wiz_0/inst/clk_out1                        |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+----------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
@@ -282,7 +281,7 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+--------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                          |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+--------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        1395 |               0 | 1391 |      3 |    0 |   0 |  0 |    1 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK       |
+| g0        | n/a   | BUFG/O          | None       |        1311 |               0 | 1307 |      3 |    0 |   0 |  0 |    1 |   0 |       0 | HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBUFG_X/CLK       |
 | g3        | n/a   | BUFR/O          | None       |           8 |               0 |    0 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/TMDS_Clk_n |
 | g4        | n/a   | BUFG/O          | None       |           1 |               0 |    0 |      0 |    0 |   0 |  0 |    0 |   1 |       0 | HDMI_bd_i/clk_wiz_0/inst/clkfbout_buf_HDMI_bd_clk_wiz_0_0    |
 | g5        | n/a   | BUFR/O          | None       |           1 |               0 |    0 |      0 |    0 |   0 |  0 |    1 |   0 |       0 | HDMI_bd_i/rgb2dvi_0/U0/ClockGenInternal.ClockGenX/CLKFBIN    |
@@ -339,5 +338,5 @@ resize_pblock [get_pblocks {CLKAG_HDMI_bd_i/dvi2rgb_0/U0/GenerateBUFG.ResyncToBU
 #startgroup
 create_pblock {CLKAG_HDMI_bd_i/clk_wiz_0/inst/clk_out1}
 add_cells_to_pblock [get_pblocks  {CLKAG_HDMI_bd_i/clk_wiz_0/inst/clk_out1}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="HDMI_bd_i/clk_wiz_0/inst/clk_out1"}]]]
-resize_pblock [get_pblocks {CLKAG_HDMI_bd_i/clk_wiz_0/inst/clk_out1}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+resize_pblock [get_pblocks {CLKAG_HDMI_bd_i/clk_wiz_0/inst/clk_out1}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
