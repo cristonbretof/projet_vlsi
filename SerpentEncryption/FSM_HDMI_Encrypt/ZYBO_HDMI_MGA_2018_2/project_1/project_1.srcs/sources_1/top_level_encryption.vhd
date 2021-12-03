@@ -101,6 +101,12 @@ begin
                 o_ciphertext <= (others=>'0');
                 key_index <= "00";
                 delay <= '1';
+                
+                plaintext_encrypter <= (others => '0');
+                intermediate_message_1 <= (others => '0');
+                intermediate_message_2 <= (others => '0');
+                intermediate_message_3 <= (others => '0');
+                
                 if (i_start = '1' and delay = '1') then
                     plaintext_encrypter <= input_message;
                     intermediate_message_1 <= ciphertext_encrypter;
@@ -120,6 +126,8 @@ begin
                     key_index <= "01";
                     state <= round2;
                     delay <= '0';
+                else
+                    state <= round1;
                 end if;
                 
             when round2 =>
@@ -132,6 +140,8 @@ begin
                     key_index <= "10";
                     state <= round3;
                     delay <= '0';
+                else
+                    state <= round2;
                 end if;
                 
             when round3 =>
@@ -143,6 +153,8 @@ begin
                     key_index <= "11";
                     state <= round4;
                     delay <= '0';
+                else
+                    state <= round3;
                 end if;
                 
             when round4 =>
@@ -157,6 +169,8 @@ begin
                     o_data_ready <= '1';
                     o_ciphertext <= ciphertext_encrypter;
 --                    o_ciphertext <= i_plaintext;
+                else
+                    state <= round4;
                 end if;
                 
             when data_ready =>
@@ -165,6 +179,8 @@ begin
 --                o_ciphertext <= i_plaintext;
                 if i_start = '1' then
                     state <= attente;
+                else
+                    state <= data_ready;
                 end if;
             end case;
     end if;    

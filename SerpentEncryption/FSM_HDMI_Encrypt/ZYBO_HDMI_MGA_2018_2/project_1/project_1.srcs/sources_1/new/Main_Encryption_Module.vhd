@@ -201,7 +201,7 @@ inst_fsm : FSM_Transmitter
                     LOAD => load_int,
                     START => start_int,
                     COMPUTE => compute_int);
-                    
+
 VSYNCBuffer1 : shiftNbitRL
         Generic Map (N => 2*width+2)
         Port Map (
@@ -213,7 +213,7 @@ VSYNCBuffer1 : shiftNbitRL
             DATA_IN => (others => '0'),
             Q => VSYNC_OUT,
             DATA_OUT => open);
-            
+
 HSYNCBuffer1 : shiftNbitRL
         Generic Map (N => 2*width+2)
         Port Map (
@@ -246,7 +246,7 @@ encrypter1 : top_level_encryption
                    i_plaintext => encoder_input(383 downto 256),
                    o_data_ready => data_ready_1,
                    o_ciphertext => encoder_output(383 downto 256));
-                   
+
 encrypter2 : top_level_encryption
         Port Map ( i_expanded_key => expanded_key_int,
                   i_reset => RESET,
@@ -255,7 +255,7 @@ encrypter2 : top_level_encryption
                   i_plaintext => encoder_input(255 downto 128),
                   o_data_ready => data_ready_2,
                   o_ciphertext => encoder_output(255 downto 128));
-                   
+
 encrypter3 : top_level_encryption
         Port Map ( i_expanded_key => expanded_key_int,
                  i_reset => RESET,

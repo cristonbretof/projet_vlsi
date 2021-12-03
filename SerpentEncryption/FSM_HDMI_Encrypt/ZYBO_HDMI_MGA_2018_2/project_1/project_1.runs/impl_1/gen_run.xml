@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638490517">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1638494785">
   <File Type="BITSTR-BMM" Name="HDMI_bd_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="HDMI_bd_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="HDMI_bd_wrapper_timing_summary_init.rpt"/>
@@ -274,6 +274,15 @@
     </File>
     <File Path="$PSRCDIR/sources_1/fsm_buffer_files/regNbit.vhd">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/regNbits.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="sequential"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../SerpentEncryption.srcs/sources_1/new/regNbits.vhd"/>
+        <Attr Name="ImportTime" Val="1638463906"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

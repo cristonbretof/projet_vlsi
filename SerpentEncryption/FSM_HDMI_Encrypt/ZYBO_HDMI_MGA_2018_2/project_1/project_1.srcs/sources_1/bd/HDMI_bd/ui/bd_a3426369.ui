@@ -1,6 +1,6 @@
 {
    ExpandedHierarchyInLayout: "",
-   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS-threadsafe
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
 #  -string -flagsOSRD
 preplace port CLK -pg 1 -y 350 -defaultsOSRD
 preplace port hdmi_out -pg 1 -y 200 -defaultsOSRD
@@ -28,6 +28,7 @@ preplace netloc dvi2rgb_0_vid_pData 1 1 1 N
 preplace netloc clk_wiz_0_clk_out1 1 0 2 -50 270 220
 preplace netloc Main_Encryption_Modu_0_RGB_OUT 1 2 1 620
 preplace netloc reset_1 1 0 3 -60 260 240 280 NJ
+preplace netloc dvi2rgb_0_RGB 1 1 2 240J 20 630
 preplace netloc dvi2rgb_0_PixelClk 1 1 2 230 270 610
 levelinfo -pg 1 -80 90 440 770 920 -top -220 -bot 450
 ",

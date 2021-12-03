@@ -17972,3 +17972,1339 @@ selectCodeEditor("top_level_encryption.vhd", 356, 339); // ce (w, ck)
 selectCodeEditor("top_level_encryption.vhd", 354, 335); // ce (w, ck)
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 101 seconds
+selectCodeEditor("top_level_encryption.vhd", 592, 427); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 319, 388); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 461, 298); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 220, 301); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 220, 301, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 357, 95); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 356, 119); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 351, 111); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 360, 114); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 346, 88); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 122, 89); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 122, 117); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 173, 138); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 173, 128); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 173, 128, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 173, 128); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 122, 98); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 122, 98, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 126, 119); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 131, 106); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 157, 88); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 90, 142); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 90, 142, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 418, 281); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 130, 302); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 377, 284); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 387, 308); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectCodeEditor("top_level_encryption.vhd", 61, 127); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 61, 127, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 61, 127); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 175, 158); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 68, 134); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 69, 134, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("top_level_encryption.vhd", 281, 453); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 281, 453, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 281, 453); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 225, 301); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 225, 301, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 42 seconds
+selectCodeEditor("top_level_encryption.vhd", 248, 246); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 248, 246, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 409, 250); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 409, 250, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 216, 223); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 216, 223, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 392, 228); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 392, 228, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("top_level_encryption.vhd", 549, 288); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_Encryption_Module.vhd", 0); // k (j, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 357, 236); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 300, 428); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 385, 366); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 400, 365); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 400, 365, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Main_Encryption_Module.vhd", 485, 350); // ce (w, ck)
+// Elapsed time: 159 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 1); // k (j, ck)
+selectCodeEditor("top_level_encryption.vhd", 318, 254); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 439, 331); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 95, 147); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 95, 147, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 89, 148); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 129, 133); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 131, 149); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 131, 149, false, false, false, false, true); // ce (w, ck) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_level_encryption.vhd", 305, 130); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_level_encryption.vhd", 323, 230); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_level_encryption.vhd", 370, 118, false, true, false, false, false); // ce (w, ck) - Control Key
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_level_encryption.vhd", 330, 300); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 300, 201); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 166, 261); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 503, 271); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // B (D, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd)]", 14); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 12); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 11); // B (D, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// Elapsed time: 28 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 16 seconds
+setFileChooser("C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/SerpentEncryption.srcs/sources_1/new/regNbits.vhd");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", true); // g (bm, c): TRUE
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 51 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/SerpentEncryption.srcs/sources_1/new/regNbits.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd)]", 5); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd), U0 : Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd)]", 6); // B (D, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 3); // k (j, ck)
+// Elapsed time: 52 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd), U0 : Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd)]", 6); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd)]", 5); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper)]", 4); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd)]", 3); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd)]", 2); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd)]", 1); // B (D, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 39 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_Encryption_Module.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 3); // k (j, ck)
+selectCodeEditor("top_level_encryption.vhd", 523, 338, false, false, true, false, false); // ce (w, ck) - Alt Key
+// Elapsed time: 14 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// TclEventType: TIMING_RESULTS_UNLOAD
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 176 MB. Current time: 12/2/21 7:37:29 PM EST
+// Engine heap size: 3,077 MB. GUI used memory: 177 MB. Current time: 12/2/21 7:37:30 PM EST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Synthesis", "Synthesized Design", "DesignTask.NETLIST_PLANNING");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// TclEventType: TIMING_RESULTS_UNLOAD
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 128 MB. Current time: 12/2/21 7:37:35 PM EST
+// Engine heap size: 3,077 MB. GUI used memory: 130 MB. Current time: 12/2/21 7:37:35 PM EST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ck)
+// Elapsed time: 26 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cM, ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: update_module_reference HDMI_bd_Main_Encryption_Modu_0_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'. 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// bx (ck):  Refresh Changed Modules : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: Upgrading 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: delete_fileset: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 4439.723 ; gain = 0.000 delete_ip_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_Main_Encryption_Modu_0_0 from Main_Encryption_Module_v1_0 1.0 to Main_Encryption_Module_v1_0 1.0 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 4439.723 ; gain = 0.000 update_module_reference: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Elapsed time: 15 seconds
+dismissDialog("Refresh Changed Modules"); // bx (ck)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 2); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_level_encryption.vhd", 558, 176); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, regNbits(Behavioral) (regNbits.vhd)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, regNbits(Behavioral) (regNbits.vhd)]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceQtoS.SrcMenu_SET_LIBRARY, "Set Library..."); // ad (aj, ck)
+// Z (ck): Set Library: addNotify
+selectComboBox(PAResourceQtoS.SpecifyLibraryDialog_LIBRARY_NAME, "sequential", 2); // F (Q, Z)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Z)
+dismissDialog("Set Library"); // Z (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property library sequential [get_files  C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/imports/new/regNbits.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, top_level_encryption.vhd]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, top_level_encryption.vhd]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 381, 92); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 494, 143); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_Encryption_Module.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 2); // k (j, ck)
+selectCodeEditor("top_level_encryption.vhd", 354, 180); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 503, 218); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_Encryption_Module.vhd", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd)]", 4); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd)]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, top_level_encryption.vhd]", 2, false); // B (D, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 2); // k (j, ck)
+selectCodeEditor("top_level_encryption.vhd", 91, 339); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 637, 344); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 161, 333); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 643, 348); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("top_level_encryption.vhd", 227, 183); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 420, 166); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+selectCodeEditor("top_level_encryption.vhd", 119, 195); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_level_encryption.vhd", 396, 225); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 448, 189); // ce (w, ck)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd), top_sbox3 : top_para_sbox_3(Behavioral) (top_para_sbox_3.vhd)]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 2); // k (j, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, serpent_encryption_block(Behavioral) (serpent_encryption_block.vhd)]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block Main_Encryption_Modu_0 . 
+// Tcl Message: Exporting to file C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh Generated Block Design Tcl file C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl Generated Hardware Definition File C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  2 19:40:40 2021] Launched HDMI_bd_Main_Encryption_Modu_0_0_synth_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_Main_Encryption_Modu_0_0_synth_1/runme.log [Thu Dec  2 19:40:41 2021] Launched synth_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log 
+// aP (ck): Launch Run Critical Messages: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aP)
+// 'k' command handler elapsed time: 10 seconds
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+selectCodeEditor("top_level_encryption.vhd", 110, 491); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 276, 426); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_OUT_OF_CONTEXT_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run HDMI_bd_Main_Encryption_Modu_0_0_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+selectCodeEditor("top_level_encryption.vhd", 679, 147); // ce (w, ck)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cM, ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_DELETE
+// bx (ck):  Refresh Changed Modules : addNotify
+// TclEventType: RUN_DELETE
+// Tcl Message: update_module_reference HDMI_bd_Main_Encryption_Modu_0_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'. 
+// Tcl Message: Upgrading 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_Main_Encryption_Modu_0_0 from Main_Encryption_Module_v1_0 1.0 to Main_Encryption_Module_v1_0 1.0 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  
+dismissDialog("Refresh Changed Modules"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_vid_pVSync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_vid_pVSync 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_vid_pVDE 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_vid_pVDE 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd VHDL Output written to : C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block Main_Encryption_Modu_0 . 
+// Tcl Message: Exporting to file C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh Generated Block Design Tcl file C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl Generated Hardware Definition File C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  2 19:41:45 2021] Launched HDMI_bd_Main_Encryption_Modu_0_0_synth_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_Main_Encryption_Modu_0_0_synth_1/runme.log [Thu Dec  2 19:41:45 2021] Launched synth_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log 
+// aP (ck): Launch Run Critical Messages: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aP)
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Launch Run Critical Messages"); // aP (ck)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 2); // k (j, ck)
+selectCodeEditor("top_level_encryption.vhd", 315, 407); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 277, 352); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("top_level_encryption.vhd", 297, 283); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 297, 283, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 380, 290); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 331, 282); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 200 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Thu Dec  2 19:47:03 2021] Launched impl_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 138 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Dec  2 19:49:24 2021] Launched impl_1... Run output will be captured here: C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 85 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2.1   **** Build date : Jul 26 2018-19:38:10     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A81C45A 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 33 seconds
+selectCodeEditor("Main_Encryption_Module.vhd", 423, 255); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 324, 370); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 442, 228); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 608, 372); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 356, 239); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 46, 171); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 45, 161); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 126, 155); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 189, 159); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 255, 158); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 236, 361); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 198, 173); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 173, 265); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 289, 382); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 247, 471); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 306, 366); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 243, 321); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 417, 244); // ce (w, ck)
+selectCodeEditor("Main_Encryption_Module.vhd", 417, 244, false, false, true, false, false); // ce (w, ck) - Alt Key
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "serpent_encryption_block.vhd", 2); // k (j, ck)
+selectCodeEditor("serpent_encryption_block.vhd", 565, 186); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design, Report Timing Summary]", 32, false); // u (O, ck)
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// bx (ck):  Open Implemented Design : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 130 MB. Current time: 12/2/21 7:52:34 PM EST
+// TclEventType: DESIGN_NEW
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 8 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 2 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances  
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.7s
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aJ (ck): Report Timing Summary: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aJ)
+dismissDialog("Report Timing Summary"); // aJ (ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs 
+// bx (ck):  Report Timing Summary : addNotify
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: TIMING_SUMMARY_UPDATED
+dismissDialog("Report Timing Summary"); // bx (ck)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "Default Layout", 0); // be (f, ck)
+// Device view-level: 0.0
+// Device view-level: 0.3
+// Device view-level: 0.6
+// Device view-level: 0.9
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 207 MB. Current time: 12/2/21 7:53:08 PM EST
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// Device view-level: 2.9
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 217 MB. Current time: 12/2/21 7:53:10 PM EST
+// Device view-level: 3.2
+// Device view-level: 2.9
+// Device view-level: 2.6
+// Device view-level: 2.3
+// Device view-level: 2.0
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 225 MB. Current time: 12/2/21 7:53:13 PM EST
+// Device view-level: 1.8
+// Device view-level: 1.5
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Device view-level: 0.6
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 216 MB. Current time: 12/2/21 7:53:14 PM EST
+// Device view-level: 0.0
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "serpent_encryption_block.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 126 seconds
+selectCodeEditor("top_level_encryption.vhd", 465, 241); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_Encryption_Module.vhd", 2); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Device view-level: 0.3
+// Device view-level: 0.6
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 211 MB. Current time: 12/2/21 7:58:19 PM EST
+// Device view-level: 0.9
+// Device view-level: 1.2
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 203 MB. Current time: 12/2/21 7:58:21 PM EST
+// Device view-level: 1.8
+// Device view-level: 2.0
+// Device view-level: 2.3
+// Device view-level: 2.6
+// Device view-level: 2.9
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 213 MB. Current time: 12/2/21 7:58:21 PM EST
+// Device view-level: 2.6
+// Device view-level: 2.3
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 209 MB. Current time: 12/2/21 7:58:24 PM EST
+// Device view-level: 1.8
+// Device view-level: 1.5
+// Device view-level: 1.2
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 203 MB. Current time: 12/2/21 7:58:25 PM EST
+// Device view-level: 0.9
+// Device view-level: 0.6
+// Device view-level: 0.3
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 203 MB. Current time: 12/2/21 7:58:26 PM EST
+// Elapsed time: 162 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// e (ck): Close Design: addNotify
+selectButton(PAResourceAtoD.ClosePlanner_YES, "Yes"); // a (e)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 158 MB. Current time: 12/2/21 7:58:37 PM EST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 3,077 MB. GUI used memory: 159 MB. Current time: 12/2/21 7:58:37 PM EST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// A (ck): Elaborate Design: addNotify
+// Tcl Message: close_design 
+dismissDialog("Close Design"); // e (ck)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd] 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7z020clg400-1 Top: HDMI_bd_wrapper 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 135 MB. Current time: 12/2/21 7:58:46 PM EST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: 	Parameter DRIVE bound to: 12 - type: integer  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (2#1) [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660] INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'hdmi_in_ddc_sda_iobuf' of component 'IOBUF' [C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:96] INFO: [Synth 8-256] done synthesizing module 'HDMI_bd_wrapper' (3#1) [C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:32] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4439.723 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HDMI_bd_wrapper_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/HDMI_bd_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 8 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 2 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 4477.766 ; gain = 38.043 
+// Tcl Message: 34 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 4477.766 ; gain = 38.043 
+// 'dP' command handler elapsed time: 11 seconds
+dismissDialog("Open Elaborated Design"); // bx (ck)
+// t (ck):  Generate Schematic : addNotify
+// Elapsed time: 140 seconds
+dismissDialog("Generate Schematic"); // t (ck)
+// PAPropertyPanels.initPanels (CLK) elapsed time: 0.2s
+// Elapsed time: 128 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd)]", 3); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper)]", 4); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd), U0 : Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd)]", 6); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd), U0 : Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd), encrypter1 : top_level_encryption(Behavioral) (top_level_encryption.vhd)]", 16, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HDMI_bd_wrapper(STRUCTURE) (HDMI_bd_wrapper.vhd), HDMI_bd_i : HDMI_bd (HDMI_bd.bd), HDMI_bd(STRUCTURE) (HDMI_bd.vhd), Main_Encryption_Modu_0 : HDMI_bd_Main_Encryption_Modu_0_0 (Module Reference Wrapper), HDMI_bd_Main_Encryption_Modu_0_0(HDMI_bd_Main_Encryption_Modu_0_0_arch) (HDMI_bd_Main_Encryption_Modu_0_0.vhd), U0 : Main_Encryption_Module(Behavioral) (Main_Encryption_Module.vhd), encrypter1 : top_level_encryption(Behavioral) (top_level_encryption.vhd)]", 16, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("top_level_encryption.vhd", 426, 187); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 111 seconds
+selectCodeEditor("top_level_encryption.vhd", 102, 452); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 278, 431); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 162 MB. Current time: 12/2/21 8:06:13 PM EST
+// Engine heap size: 3,077 MB. GUI used memory: 163 MB. Current time: 12/2/21 8:06:13 PM EST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+selectCodeEditor("top_level_encryption.vhd", 296, 331); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 296, 331, false, false, false, false, true); // ce (w, ck) - Double Click
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cM, ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: update_module_reference HDMI_bd_Main_Encryption_Modu_0_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'. 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// bx (ck):  Refresh Changed Modules : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Upgrading 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: delete_fileset: Time (s): cpu = 00:00:01 ; elapsed = 00:00:48 . Memory (MB): peak = 4477.766 ; gain = 0.000 delete_ip_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:48 . Memory (MB): peak = 4477.766 ; gain = 0.000 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_Main_Encryption_Modu_0_0 from Main_Encryption_Module_v1_0 1.0 to Main_Encryption_Module_v1_0 1.0 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 4477.766 ; gain = 0.000 update_module_reference: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 4477.766 ; gain = 0.000 
+// Elapsed time: 49 seconds
+dismissDialog("Refresh Changed Modules"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /dvi2rgb_0_PixelClk 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_VDE_OUT 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (ck): Re-customize Module Reference: addNotify
+// Elapsed time: 168 seconds
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (an, r): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize Module Reference"); // r (ck)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_wiz_0_clk_out1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /reset_1 
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_level_encryption.vhd", 1); // k (j, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("top_level_encryption.vhd", 262, 158); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 226, 181); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 77, 186); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 77, 186, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 110, 400); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 110, 400, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 96, 265); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 96, 265, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("top_level_encryption.vhd", 264, 336); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 264, 336, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 36 seconds
+selectCodeEditor("top_level_encryption.vhd", 115, 164); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 115, 164, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 115, 164); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 122, 168); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 133, 158); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 133, 158, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("top_level_encryption.vhd", 361, 81); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 343, 64); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 371, 77); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 242, 190); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 245, 208); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 341, 166); // ce (w, ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("top_level_encryption.vhd", 381, 82); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 204, 240); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_level_encryption.vhd", 383, 178); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 457, 290); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 460, 274); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+selectCodeEditor("top_level_encryption.vhd", 193, 77); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 284, 300); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 287, 301); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 299, 329); // ce (w, ck)
+// Elapsed time: 60 seconds
+selectCodeEditor("top_level_encryption.vhd", 276, 221); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 262, 217); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 147, 266); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 242, 261); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 283, 256); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectCodeEditor("top_level_encryption.vhd", 231, 229); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_level_encryption.vhd", 265, 260); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 278, 213); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 281, 262); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 346, 280); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("top_level_encryption.vhd", 272, 97); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 255, 339); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_level_encryption.vhd", 272, 113); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 420, 292); // ce (w, ck)
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_level_encryption.vhd", 380, 343); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("top_level_encryption.vhd", 378, 323); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("top_level_encryption.vhd", 329, 349); // ce (w, ck)
+// Elapsed time: 21 seconds
+typeControlKey((HResource) null, "top_level_encryption.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 396, 318); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No such file or directory 
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("top_level_encryption.vhd", 317, 127); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 177, 148); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 177, 148, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("top_level_encryption.vhd", 354, 139); // ce (w, ck)
+selectCodeEditor("top_level_encryption.vhd", 354, 139, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 86 seconds
+selectCodeEditor("top_level_encryption.vhd", 612, 243); // ce (w, ck)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cM, ck)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// bx (ck):  Refresh Changed Modules : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /HDMI_bd 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: update_module_reference HDMI_bd_Main_Encryption_Modu_0_0 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'. 
+// Tcl Message: Upgrading 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_Main_Encryption_Modu_0_0 from Main_Encryption_Module_v1_0 1.0 to Main_Encryption_Module_v1_0 1.0 
+// Tcl Message: Wrote  : <C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>  
+dismissDialog("Refresh Changed Modules"); // bx (ck)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_HSYNC_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Main_Encryption_Modu_0_RGB_OUT 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /CLK_1 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 414, 484); // n (o, ck)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 414, 484); // n (o, ck)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 414, 484); // n (o, ck)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 456, 122); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ck):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,077 MB. GUI used memory: 130 MB. Current time: 12/2/21 8:18:31 PM EST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: "xvlog --incr --relax -prj Main_Encryption_Module_vlog.prj" "xvhdl --incr --relax -prj Main_Encryption_Module_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.2 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: C:/Programs/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 46568e9c09aa4a0a97719fe9ce7e6a8b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L sboxes -L keyschedule -L transforms -L sequential -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Main_Encryption_Module_behav xil_defaultlib.Main_Encryption_Module xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis 

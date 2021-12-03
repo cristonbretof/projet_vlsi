@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date             : Thu Dec  2 19:17:15 2021
+| Date             : Thu Dec  2 20:33:40 2021
 | Host             : pcetu-136 running 64-bit major release  (build 9200)
 | Command          : report_power -file HDMI_bd_wrapper_power_routed.rpt -pb HDMI_bd_wrapper_power_summary_routed.pb -rpx HDMI_bd_wrapper_power_routed.rpx
 | Design           : HDMI_bd_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 3.395        |
+| Total On-Chip Power (W)  | 3.477        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 3.195        |
-| Device Static (W)        | 0.200        |
+| Dynamic (W)              | 3.272        |
+| Device Static (W)        | 0.204        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 45.8         |
-| Junction Temperature (C) | 64.2         |
+| Max Ambient (C)          | 44.9         |
+| Junction Temperature (C) | 65.1         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,10 +52,10 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.004 |        5 |       --- |             --- |
-| Slice Logic              |     1.410 |    15111 |       --- |             --- |
-|   LUT as Logic           |     1.409 |     8364 |     53200 |           15.72 |
-|   Register               |     0.001 |     4201 |    106400 |            3.95 |
+| Clocks                   |     0.005 |        5 |       --- |             --- |
+| Slice Logic              |     1.483 |    16603 |       --- |             --- |
+|   LUT as Logic           |     1.481 |     9869 |     53200 |           18.55 |
+|   Register               |     0.002 |     4221 |    106400 |            3.97 |
 |   CARRY4                 |    <0.001 |       18 |     13300 |            0.14 |
 |   BUFG                   |    <0.001 |        3 |        32 |            9.38 |
 |   LUT as Distributed RAM |    <0.001 |       24 |     17400 |            0.14 |
@@ -63,12 +63,12 @@ Table of Contents
 |   Others                 |    <0.001 |      115 |       --- |             --- |
 |   LUT as Shift Register  |     0.000 |        3 |     17400 |            0.02 |
 |   BUFR                   |     0.000 |        3 |        88 |            3.41 |
-| Signals                  |     1.384 |    13454 |       --- |             --- |
+| Signals                  |     1.387 |    13780 |       --- |             --- |
 | MMCM                     |     0.124 |        2 |         4 |           50.00 |
 | PLL                      |     0.110 |        1 |         4 |           25.00 |
 | I/O                      |     0.163 |       21 |       125 |           16.80 |
-| Static Power             |     0.200 |          |           |                 |
-| Total                    |     3.395 |          |           |                 |
+| Static Power             |     0.204 |          |           |                 |
+| Total                    |     3.477 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -78,7 +78,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     2.845 |       2.812 |      0.033 |
+| Vccint    |       1.000 |     2.924 |       2.890 |      0.035 |
 | Vccaux    |       1.800 |     0.164 |       0.140 |      0.024 |
 | Vcco33    |       3.300 |     0.041 |       0.040 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -91,7 +91,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccpint   |       1.000 |     0.059 |       0.000 |      0.059 |
+| Vccpint   |       1.000 |     0.061 |       0.000 |      0.061 |
 | Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |
 | Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |
 | Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -156,10 +156,10 @@ Table of Contents
 +----------------------------------------+-----------+
 | Name                                   | Power (W) |
 +----------------------------------------+-----------+
-| HDMI_bd_wrapper                        |     3.195 |
-|   HDMI_bd_i                            |     3.195 |
-|     Main_Encryption_Modu_0             |     2.789 |
-|       U0                               |     2.789 |
+| HDMI_bd_wrapper                        |     3.272 |
+|   HDMI_bd_i                            |     3.272 |
+|     Main_Encryption_Modu_0             |     2.865 |
+|       U0                               |     2.865 |
 |         HSYNCBuffer1                   |     0.000 |
 |           NbitReg[0].NbitRegX          |     0.000 |
 |           NbitReg[1].NbitRegX          |     0.000 |
@@ -197,19 +197,19 @@ Table of Contents
 |           regNbit[7].regNbitX          |     0.000 |
 |           regNbit[8].regNbitX          |     0.000 |
 |           regNbit[9].regNbitX          |     0.000 |
-|         encrypter1                     |     0.923 |
+|         encrypter1                     |     0.973 |
 |           encrypter                    |    <0.001 |
 |             top_sbox4                  |    <0.001 |
 |               para_box0                |    <0.001 |
 |                 sbox1                  |    <0.001 |
 |                 sbox3                  |    <0.001 |
-|         encrypter2                     |     0.958 |
+|         encrypter2                     |     0.966 |
 |           encrypter                    |    <0.001 |
 |             top_sbox4                  |    <0.001 |
 |               para_box0                |    <0.001 |
 |                 sbox1                  |    <0.001 |
 |                 sbox3                  |    <0.001 |
-|         encrypter3                     |     0.908 |
+|         encrypter3                     |     0.926 |
 |           encrypter                    |    <0.001 |
 |             top_sbox4                  |    <0.001 |
 |               para_box0                |    <0.001 |
@@ -1804,9 +1804,9 @@ Table of Contents
 |           NbitReg[9].NbitRegX          |     0.000 |
 |     clk_wiz_0                          |     0.111 |
 |       inst                             |     0.111 |
-|     dvi2rgb_0                          |     0.101 |
-|       U0                               |     0.101 |
-|         DataDecoders[0].DecoderX       |     0.011 |
+|     dvi2rgb_0                          |     0.102 |
+|       U0                               |     0.102 |
+|         DataDecoders[0].DecoderX       |     0.012 |
 |           ChannelBondX                 |    <0.001 |
 |             pFIFO_reg_0_31_0_5         |    <0.001 |
 |             pFIFO_reg_0_31_6_9         |    <0.001 |
@@ -1816,7 +1816,7 @@ Table of Contents
 |             SyncAsyncx                 |    <0.001 |
 |           SyncBaseRst                  |    <0.001 |
 |             SyncAsyncx                 |    <0.001 |
-|         DataDecoders[1].DecoderX       |     0.011 |
+|         DataDecoders[1].DecoderX       |     0.012 |
 |           ChannelBondX                 |    <0.001 |
 |             pFIFO_reg_0_31_0_5         |    <0.001 |
 |             pFIFO_reg_0_31_6_9         |    <0.001 |
@@ -1837,7 +1837,7 @@ Table of Contents
 |           SyncBaseRst                  |    <0.001 |
 |             SyncAsyncx                 |    <0.001 |
 |         GenerateBUFG.ResyncToBUFG_X    |    <0.001 |
-|         GenerateDDC.DDC_EEPROM         |     0.002 |
+|         GenerateDDC.DDC_EEPROM         |     0.003 |
 |           I2C_SlaveController          |     0.002 |
 |             GlitchF_SCL                |    <0.001 |
 |             GlitchF_SDA                |    <0.001 |
