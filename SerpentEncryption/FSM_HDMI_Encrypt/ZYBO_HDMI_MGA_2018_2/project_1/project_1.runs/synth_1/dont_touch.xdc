@@ -18,7 +18,7 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==HDMI_bd_rgb2dvi
 # IP: bd/HDMI_bd/ip/HDMI_bd_xlconstant_0_0/HDMI_bd_xlconstant_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==HDMI_bd_xlconstant_0_0 || ORIG_REF_NAME==HDMI_bd_xlconstant_0_0} -quiet] -quiet
 
-# IP: bd/HDMI_bd/ip/HDMI_bd_Main_Encryption_Modu_0_0/HDMI_bd_Main_Encryption_Modu_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==HDMI_bd_Main_Encryption_Modu_0_0 || ORIG_REF_NAME==HDMI_bd_Main_Encryption_Modu_0_0} -quiet] -quiet
+# IP: bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/HDMI_bd_pixel16_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==HDMI_bd_pixel16_0_0 || ORIG_REF_NAME==HDMI_bd_pixel16_0_0} -quiet] -quiet
 
 # XDC: bd/HDMI_bd/HDMI_bd_ooc.xdc

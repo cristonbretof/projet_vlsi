@@ -98,6 +98,9 @@ signal encoder_input : STD_LOGIC_VECTOR (depth*width-1 downto 0);
 signal encoder_output : STD_LOGIC_VECTOR (depth*width-1 downto 0);
 signal TX_buffer_int : STD_LOGIC_VECTOR (depth*width-1 downto 0);
 
+type pixels is array(0 to 15) of STD_LOGIC_VECTOR(23 downto 0);
+signal concatenatedPixels: STD_LOGIC_VECTOR(383 downto 0);
+
 signal load_int : STD_LOGIC;
 signal start_int : STD_LOGIC;
 signal compute_int : STD_LOGIC;

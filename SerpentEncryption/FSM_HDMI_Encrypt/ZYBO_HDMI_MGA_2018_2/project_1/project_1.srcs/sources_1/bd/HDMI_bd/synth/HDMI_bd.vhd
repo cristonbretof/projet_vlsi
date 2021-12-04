@@ -1,8 +1,8 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
---Date        : Thu Dec  2 20:26:21 2021
---Host        : pcetu-136 running 64-bit major release  (build 9200)
+--Date        : Sat Dec  4 18:29:01 2021
+--Host        : pcetu-131 running 64-bit major release  (build 9200)
 --Command     : generate_target HDMI_bd.bd
 --Design      : HDMI_bd
 --Purpose     : IP block netlist
@@ -88,25 +88,21 @@ architecture STRUCTURE of HDMI_bd is
     dout : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component HDMI_bd_xlconstant_0_0;
-  component HDMI_bd_Main_Encryption_Modu_0_0 is
+  component HDMI_bd_pixel16_0_0 is
   port (
     RGB_IN : in STD_LOGIC_VECTOR ( 23 downto 0 );
-    HSYNC_IN : in STD_LOGIC;
     VSYNC_IN : in STD_LOGIC;
+    HSYNC_IN : in STD_LOGIC;
     VDE_IN : in STD_LOGIC;
-    RESET : in STD_LOGIC;
     CLK : in STD_LOGIC;
+    RESET : in STD_LOGIC;
     RGB_OUT : out STD_LOGIC_VECTOR ( 23 downto 0 );
-    HSYNC_OUT : out STD_LOGIC;
     VSYNC_OUT : out STD_LOGIC;
+    HSYNC_OUT : out STD_LOGIC;
     VDE_OUT : out STD_LOGIC
   );
-  end component HDMI_bd_Main_Encryption_Modu_0_0;
+  end component HDMI_bd_pixel16_0_0;
   signal CLK_1 : STD_LOGIC;
-  signal Main_Encryption_Modu_0_HSYNC_OUT : STD_LOGIC;
-  signal Main_Encryption_Modu_0_RGB_OUT : STD_LOGIC_VECTOR ( 23 downto 0 );
-  signal Main_Encryption_Modu_0_VDE_OUT : STD_LOGIC;
-  signal Main_Encryption_Modu_0_VSYNC_OUT : STD_LOGIC;
   signal clk_wiz_0_clk_out1 : STD_LOGIC;
   signal dvi2rgb_0_DDC_SCL_I : STD_LOGIC;
   signal dvi2rgb_0_DDC_SCL_O : STD_LOGIC;
@@ -123,6 +119,10 @@ architecture STRUCTURE of HDMI_bd is
   signal hdmi_in_1_CLK_P : STD_LOGIC;
   signal hdmi_in_1_DATA_N : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal hdmi_in_1_DATA_P : STD_LOGIC_VECTOR ( 2 downto 0 );
+  signal pixel16_0_HSYNC_OUT : STD_LOGIC;
+  signal pixel16_0_RGB_OUT : STD_LOGIC_VECTOR ( 23 downto 0 );
+  signal pixel16_0_VDE_OUT : STD_LOGIC;
+  signal pixel16_0_VSYNC_OUT : STD_LOGIC;
   signal reset_1 : STD_LOGIC;
   signal rgb2dvi_0_TMDS_CLK_N : STD_LOGIC;
   signal rgb2dvi_0_TMDS_CLK_P : STD_LOGIC;
@@ -169,19 +169,6 @@ begin
   hdmi_out_data_n(2 downto 0) <= rgb2dvi_0_TMDS_DATA_N(2 downto 0);
   hdmi_out_data_p(2 downto 0) <= rgb2dvi_0_TMDS_DATA_P(2 downto 0);
   reset_1 <= reset;
-Main_Encryption_Modu_0: component HDMI_bd_Main_Encryption_Modu_0_0
-     port map (
-      CLK => dvi2rgb_0_PixelClk,
-      HSYNC_IN => dvi2rgb_0_vid_pHSync,
-      HSYNC_OUT => Main_Encryption_Modu_0_HSYNC_OUT,
-      RESET => reset_1,
-      RGB_IN(23 downto 0) => dvi2rgb_0_vid_pData(23 downto 0),
-      RGB_OUT(23 downto 0) => Main_Encryption_Modu_0_RGB_OUT(23 downto 0),
-      VDE_IN => dvi2rgb_0_vid_pVDE,
-      VDE_OUT => Main_Encryption_Modu_0_VDE_OUT,
-      VSYNC_IN => dvi2rgb_0_vid_pVSync,
-      VSYNC_OUT => Main_Encryption_Modu_0_VSYNC_OUT
-    );
 clk_wiz_0: component HDMI_bd_clk_wiz_0_0
      port map (
       clk_in1 => CLK_1,
@@ -211,6 +198,19 @@ dvi2rgb_0: component HDMI_bd_dvi2rgb_0_0
       vid_pVDE => dvi2rgb_0_vid_pVDE,
       vid_pVSync => dvi2rgb_0_vid_pVSync
     );
+pixel16_0: component HDMI_bd_pixel16_0_0
+     port map (
+      CLK => dvi2rgb_0_PixelClk,
+      HSYNC_IN => dvi2rgb_0_vid_pHSync,
+      HSYNC_OUT => pixel16_0_HSYNC_OUT,
+      RESET => reset_1,
+      RGB_IN(23 downto 0) => dvi2rgb_0_vid_pData(23 downto 0),
+      RGB_OUT(23 downto 0) => pixel16_0_RGB_OUT(23 downto 0),
+      VDE_IN => dvi2rgb_0_vid_pVDE,
+      VDE_OUT => pixel16_0_VDE_OUT,
+      VSYNC_IN => dvi2rgb_0_vid_pVSync,
+      VSYNC_OUT => pixel16_0_VSYNC_OUT
+    );
 rgb2dvi_0: component HDMI_bd_rgb2dvi_0_0
      port map (
       PixelClk => dvi2rgb_0_PixelClk,
@@ -219,10 +219,10 @@ rgb2dvi_0: component HDMI_bd_rgb2dvi_0_0
       TMDS_Data_n(2 downto 0) => rgb2dvi_0_TMDS_DATA_N(2 downto 0),
       TMDS_Data_p(2 downto 0) => rgb2dvi_0_TMDS_DATA_P(2 downto 0),
       aRst => reset_1,
-      vid_pData(23 downto 0) => Main_Encryption_Modu_0_RGB_OUT(23 downto 0),
-      vid_pHSync => Main_Encryption_Modu_0_HSYNC_OUT,
-      vid_pVDE => Main_Encryption_Modu_0_VDE_OUT,
-      vid_pVSync => Main_Encryption_Modu_0_VSYNC_OUT
+      vid_pData(23 downto 0) => pixel16_0_RGB_OUT(23 downto 0),
+      vid_pHSync => pixel16_0_HSYNC_OUT,
+      vid_pVDE => pixel16_0_VDE_OUT,
+      vid_pVSync => pixel16_0_VSYNC_OUT
     );
 xlconstant_0: component HDMI_bd_xlconstant_0_0
      port map (

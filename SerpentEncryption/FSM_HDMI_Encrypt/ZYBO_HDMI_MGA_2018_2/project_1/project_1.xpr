@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="C:/Users/chbre42/Documents/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.xpr">
+<Project Version="7" Minor="38" Path="C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="46568e9c09aa4a0a97719fe9ce7e6a8b"/>
@@ -34,7 +34,7 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="zybo-z7-20"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="19"/>
+    <Option Name="WTXSimLaunchSim" Val="39"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -62,12 +62,6 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/FSM_Transmitter.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/s_box_0.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sboxes"/>
@@ -257,18 +251,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/reg1bit.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/regNbit.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/new/regNbits.vhd">
         <FileInfo>
           <Attr Name="Library" Val="sequential"/>
@@ -280,23 +262,12 @@
       </File>
       <File Path="$PSRCDIR/sources_1/serpent_encryption_block.vhd">
         <FileInfo>
+          <Attr Name="Library" Val="work"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/shiftNbitRL.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/top_level_encryption.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/Main_Encryption_Module.vhd">
+      <File Path="$PSRCDIR/sources_1/new/pixel16.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -308,20 +279,20 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xci">
+          <Proxy FileSetName="HDMI_bd_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_rgb2dvi_0_0/HDMI_bd_rgb2dvi_0_0.xci">
           <Proxy FileSetName="HDMI_bd_rgb2dvi_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_xlconstant_0_0/HDMI_bd_xlconstant_0_0.xci">
           <Proxy FileSetName="HDMI_bd_xlconstant_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_Main_Encryption_Modu_0_0/HDMI_bd_Main_Encryption_Modu_0_0.xci">
-          <Proxy FileSetName="HDMI_bd_Main_Encryption_Modu_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_dvi2rgb_0_0/HDMI_bd_dvi2rgb_0_0.xci">
           <Proxy FileSetName="HDMI_bd_dvi2rgb_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xci">
-          <Proxy FileSetName="HDMI_bd_clk_wiz_0_0"/>
+        <CompFileExtendedInfo CompFileName="HDMI_bd.bd" FileRelPathName="ip/HDMI_bd_pixel16_0_0/HDMI_bd_pixel16_0_0.xci">
+          <Proxy FileSetName="HDMI_bd_pixel16_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd">
@@ -330,10 +301,59 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/top_level_encryption.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="work"/>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/FSM_Transmitter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/reg1bit.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/regNbit.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/fsm_buffer_files/shiftNbitRL.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Main_Encryption_Module.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/toto.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="HDMI_bd_wrapper"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -354,10 +374,10 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="Main_Encryption_Module"/>
+        <Option Name="TopModule" Val="pixel16"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopArchitecture" Val="Behavioral"/>
-        <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/new/Main_Encryption_Module.vhd"/>
+        <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/new/pixel16.vhd"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
@@ -387,9 +407,9 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="HDMI_bd_Main_Encryption_Modu_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/HDMI_bd_Main_Encryption_Modu_0_0">
+    <FileSet Name="HDMI_bd_pixel16_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/HDMI_bd_pixel16_0_0">
       <Config>
-        <Option Name="TopModule" Val="HDMI_bd_Main_Encryption_Modu_0_0"/>
+        <Option Name="TopModule" Val="HDMI_bd_pixel16_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -458,7 +478,7 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="HDMI_bd_Main_Encryption_Modu_0_0_synth_1" Type="Ft3:Synth" SrcSet="HDMI_bd_Main_Encryption_Modu_0_0" Part="xc7z020clg400-1" ConstrsSet="HDMI_bd_Main_Encryption_Modu_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/HDMI_bd_Main_Encryption_Modu_0_0_synth_1" IncludeInArchive="true">
+    <Run Id="HDMI_bd_pixel16_0_0_synth_1" Type="Ft3:Synth" SrcSet="HDMI_bd_pixel16_0_0" Part="xc7z020clg400-1" ConstrsSet="HDMI_bd_pixel16_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/HDMI_bd_pixel16_0_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -550,7 +570,7 @@
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="HDMI_bd_Main_Encryption_Modu_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="HDMI_bd_Main_Encryption_Modu_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="HDMI_bd_Main_Encryption_Modu_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+    <Run Id="HDMI_bd_pixel16_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="HDMI_bd_pixel16_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="HDMI_bd_pixel16_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
           <Desc>Default settings for Implementation.</Desc>
