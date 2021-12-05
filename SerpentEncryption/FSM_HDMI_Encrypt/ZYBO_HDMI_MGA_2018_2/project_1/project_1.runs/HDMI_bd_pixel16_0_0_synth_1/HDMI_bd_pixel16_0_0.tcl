@@ -64,9 +64,29 @@ read_vhdl -library keyschedule {
   C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_expansion.vhd
   C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_padding.vhd
 }
-read_vhdl -library transforms C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/linear_transform.vhd
-read_vhdl -library sequential C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/imports/new/regNbits.vhd
-read_vhdl -library work C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd
+read_vhdl -library transforms {
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_linear_transform.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/linear_transform.vhd
+}
+read_vhdl -library inv_sbox {
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_0.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_0.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_1.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_1.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_2.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_2.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_3.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_3.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_4.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_4.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_5.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_5.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_6.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_6.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_sbox_7.vhd
+  C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/inv_parallel_sbox_7.vhd
+}
+read_vhdl -library work C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentDecryption/SerpentDecryption.srcs/sources_1/new/serpent_decryption_block.vhd
 read_vhdl -library xil_defaultlib C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd
 read_ip -quiet C:/Users/dabou538/Documents/GitHub/projet_vlsi/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/HDMI_bd_pixel16_0_0.xci
 

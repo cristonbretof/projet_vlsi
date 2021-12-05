@@ -50,12 +50,21 @@ end pixel16;
 
 architecture Behavioral of pixel16 is
 
-component serpent_encryption_block is
-    Port ( i_pixel_clk    : in  std_logic;
-           i_key_index    : in  std_logic_vector(1    downto 0);
-           i_plaintext    : in  std_logic_vector(127  downto 0);
-           i_expanded_key : in  std_logic_vector(4223 downto 0);
-           o_ciphertext   : out std_logic_vector(127  downto 0));
+--component serpent_encryption_block is
+--    Port ( i_pixel_clk    : in  std_logic;
+--           i_key_index    : in  std_logic_vector(1    downto 0);
+--           i_plaintext    : in  std_logic_vector(127  downto 0);
+--           i_expanded_key : in  std_logic_vector(4223 downto 0);
+--           o_ciphertext   : out std_logic_vector(127  downto 0));
+--end component;
+
+component serpent_decryption_block is
+ Port (    i_pixel_clk     : in  std_logic;
+           i_key_index  : in  std_logic_vector(1    downto 0);
+           i_ciphertext  : in  std_logic_vector(127  downto 0);
+           i_key        : in  std_logic_vector(4223 downto 0);
+           o_plaintext : out std_logic_vector(127  downto 0));
+           
 end component;
 --component top_level_encryption is
 --    Port ( i_expanded_key : in std_logic_vector(4223 downto 0);
@@ -112,24 +121,24 @@ keyexpansion : entity keyschedule.key_expansion
     Port Map ( i_pad_key => padded_key_int,
                o_expand_key => expanded_key_int);
                
-block1: serpent_encryption_block
+block1: serpent_decryption_block
        Port map ( i_pixel_clk  => CLK,
               i_key_index => "01",
-              i_plaintext   => pixel_int_buffer(127 downto 0),
-              i_expanded_key => expanded_key_int,
-              o_ciphertext   => pixel_int_buffer_encrypted(127 downto 0));
-block2: serpent_encryption_block
+              i_ciphertext   => pixel_int_buffer(127 downto 0),
+              i_key => expanded_key_int,
+              o_plaintext   => pixel_int_buffer_encrypted(127 downto 0));
+block2: serpent_decryption_block
      Port map ( i_pixel_clk  => CLK,
             i_key_index => "01",
-            i_plaintext   => pixel_int_buffer(255 downto 128),
-            i_expanded_key => expanded_key_int,
-            o_ciphertext   => pixel_int_buffer_encrypted(255 downto 128));
-block3: serpent_encryption_block
+            i_ciphertext   => pixel_int_buffer(255 downto 128),
+            i_key => expanded_key_int,
+            o_plaintext   => pixel_int_buffer_encrypted(255 downto 128));
+block3: serpent_decryption_block
        Port map ( i_pixel_clk  => CLK,
               i_key_index => "01",
-              i_plaintext   => pixel_int_buffer(383 downto 256),
-              i_expanded_key => expanded_key_int,
-              o_ciphertext   => pixel_int_buffer_encrypted(383 downto 256));
+              i_ciphertext   => pixel_int_buffer(383 downto 256),
+              i_key => expanded_key_int,
+              o_plaintext   => pixel_int_buffer_encrypted(383 downto 256));
 
 
 pixel_in.rgb <= RGB_IN;

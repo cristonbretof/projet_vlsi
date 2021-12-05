@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="HDMI_bd" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1638660542"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1638660542"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1638660542"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1638660542"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1638662162"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1638662162"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1638662162"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1638662162"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\HDMI_bd_clk_wiz_0_0\HDMI_bd_clk_wiz_0_0.xci" Type="IP">
         <Instance HierarchyPath="clk_wiz_0"/>

@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
---Date        : Sat Dec  4 18:29:01 2021
+--Date        : Sat Dec  4 18:56:02 2021
 --Host        : pcetu-131 running 64-bit major release  (build 9200)
 --Command     : generate_target HDMI_bd_wrapper.bd
 --Design      : HDMI_bd_wrapper
