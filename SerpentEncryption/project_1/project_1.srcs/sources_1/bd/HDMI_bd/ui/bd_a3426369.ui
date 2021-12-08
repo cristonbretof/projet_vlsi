@@ -1,0 +1,42 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port ctrl -pg 1 -y -10 -defaultsOSRD
+preplace port start -pg 1 -y -90 -defaultsOSRD
+preplace port CLK -pg 1 -y 350 -defaultsOSRD
+preplace port hdmi_out -pg 1 -y 200 -defaultsOSRD
+preplace port hdmi_in -pg 1 -y 90 -defaultsOSRD
+preplace port hdmi_in_ddc -pg 1 -y 0 -defaultsOSRD
+preplace port reset -pg 1 -y 150 -defaultsOSRD
+preplace portBus key -pg 1 -y -50 -defaultsOSRD
+preplace portBus hdmi_in_hpd -pg 1 -y 60 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 60 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 3 -y 280 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 430 -defaultsOSRD
+preplace inst dvi2rgb_0 -pg 1 -lvl 1 -y 170 -defaultsOSRD
+preplace inst pixel16_0 -pg 1 -lvl 2 -y 10 -defaultsOSRD
+preplace netloc ctrl_1 1 0 2 NJ -10 260
+preplace netloc start_1 1 0 2 NJ -90 280
+preplace netloc CLK_1 1 0 1 -90J
+preplace netloc pixel16_0_VSYNC_OUT 1 2 1 620
+preplace netloc dvi2rgb_0_vid_pVDE 1 1 1 270
+preplace netloc rgb2dvi_0_TMDS 1 3 1 900J
+preplace netloc hdmi_in_1 1 0 1 -90J
+preplace netloc dvi2rgb_0_DDC 1 1 3 290 150 630J 0 NJ
+preplace netloc pixel16_0_RGB_OUT 1 2 1 640
+preplace netloc dvi2rgb_0_vid_pHSync 1 1 1 250
+preplace netloc xlconstant_0_dout 1 3 1 NJ
+preplace netloc dvi2rgb_0_vid_pVSync 1 1 1 220
+preplace netloc dvi2rgb_0_vid_pData 1 1 1 210
+preplace netloc clk_wiz_0_clk_out1 1 0 2 -70 40 190
+preplace netloc pixel16_0_VDE_OUT 1 2 1 590
+preplace netloc key_1 1 0 2 NJ -50 200
+preplace netloc pixel16_0_HSYNC_OUT 1 2 1 610
+preplace netloc reset_1 1 0 3 -80 30 240 320 NJ
+preplace netloc dvi2rgb_0_RGB 1 1 2 230J 160 600
+preplace netloc dvi2rgb_0_PixelClk 1 1 2 280 340 N
+levelinfo -pg 1 -110 60 440 770 920 -top -220 -bot 620
+",
+}
+0

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Wed Dec  8 11:11:19 2021
+# Process ID: 1704
+# Current directory: C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1952 C:\Users\chbre42\Documents\projet_vlsi-main\SerpentEncryption\FSM_HDMI_Encrypt\ZYBO_HDMI_MGA_2018_2\project_1\project_1.xpr
+# Log file: C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/vivado.log
+# Journal file: C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd', nor could it be found using path 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/toto.vhd', nor could it be found using path 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/toto.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/chbre42/Documents/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Programs/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 858.691 ; gain = 154.859
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  8 11:14:50 2021...

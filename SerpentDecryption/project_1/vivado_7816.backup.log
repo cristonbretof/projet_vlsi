@@ -1,0 +1,666 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Mon Dec  6 15:12:22 2021
+# Process ID: 7816
+# Current directory: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13760 C:\Users\ALCLO68\Documents\projet_vlsi-main\projet_vlsi-main\SerpentEncryption\FSM_HDMI_Encrypt\ZYBO_HDMI_MGA_2018_2\project_1\project_1.xpr
+# Log file: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/vivado.log
+# Journal file: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Programs/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 930.043 ; gain = 185.555
+update_compile_order -fileset sources_1
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.8 - dvi2rgb_0
+Adding cell -- digilentinc.com:ip:rgb2dvi:1.4 - rgb2dvi_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:module_ref:pixel16:1.0 - pixel16_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /reset(rst) and /dvi2rgb_0/aRst(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /reset(rst) and /dvi2rgb_0/pRst(undef)
+Successfully read diagram <HDMI_bd> from BD file <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd>
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+upgrade_ip: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1083.105 ; gain = 110.410
+update_module_reference: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1083.105 ; gain = 118.820
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 15:15:37 2021] Launched HDMI_bd_pixel16_0_0_synth_1, synth_1...
+Run output will be captured here:
+HDMI_bd_pixel16_0_0_synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1/runme.log
+synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 15:15:37 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 15:23:26 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2.1
+  **** Build date : Jul 26 2018-19:38:10
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1193.758 ; gain = 1.953
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A787B1A
+open_hw_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1864.570 ; gain = 670.812
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 15:27:07 2021] Launched HDMI_bd_pixel16_0_0_synth_1, synth_1...
+Run output will be captured here:
+HDMI_bd_pixel16_0_0_synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1/runme.log
+synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 15:27:07 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 15:34:20 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+open_bd_design {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd}
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'key_in'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'HDMI_bd_pixel16_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'HDMI_bd_pixel16_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ui/bd_a3426369.ui> 
+create_bd_port -dir I -from 3 -to 0 key
+set_property location {-116 22} [get_bd_ports start]
+set_property location {-123 46} [get_bd_ports ctrl]
+set_property location {-117 -94} [get_bd_ports start]
+set_property location {-117 -57} [get_bd_ports ctrl]
+set_property location {-120 -7} [get_bd_ports ctrl]
+set_property location {-179 20} [get_bd_ports key]
+connect_bd_net [get_bd_ports key] [get_bd_pins pixel16_0/key_in]
+save_bd_design
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ui/bd_a3426369.ui> 
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+WARNING: [IP_Flow 19-4706] Upgraded port 'key_in' width 3 differs from original width 4
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'HDMI_bd_pixel16_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'HDMI_bd_pixel16_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+delete_bd_objs [get_bd_nets key_1] [get_bd_ports key]
+create_bd_port -dir I -from 2 -to 0 key
+connect_bd_net [get_bd_ports key] [get_bd_pins pixel16_0/key_in]
+save_bd_design
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ui/bd_a3426369.ui> 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 16:24:16 2021] Launched HDMI_bd_pixel16_0_0_synth_1, synth_1...
+Run output will be captured here:
+HDMI_bd_pixel16_0_0_synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1/runme.log
+synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 16:24:16 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 16:30:58 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 16:55:37 2021] Launched HDMI_bd_pixel16_0_0_synth_1, synth_1...
+Run output will be captured here:
+HDMI_bd_pixel16_0_0_synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1/runme.log
+synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 16:55:37 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 17:03:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2.1
+  **** Build date : Jul 26 2018-19:38:10
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2072.520 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A787B1A
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1
+
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 17:16:41 2021] Launched HDMI_bd_pixel16_0_0_synth_1, synth_1...
+Run output will be captured here:
+HDMI_bd_pixel16_0_0_synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1/runme.log
+synth_1: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 17:16:42 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 17:25:40 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'HDMI_bd_wrapper' is not ideal for floorplanning, since the cellview 'HDMI_bd_pixel16_0_0_pixel16' defined in file 'HDMI_bd_pixel16_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2.1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.806 . Memory (MB): peak = 2958.004 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.807 . Memory (MB): peak = 2958.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:28 . Memory (MB): peak = 3077.566 ; gain = 944.738
+delete_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_clk_wiz_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_dvi2rgb_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_rgb2dvi_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_xlconstant_0_0_synth_1
+
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/HDMI_bd_pixel16_0_0_synth_1
+
+delete_ip_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 3291.359 ; gain = 162.629
+set_property synth_checkpoint_mode None [get_files  C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd]
+generate_target all [get_files  C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd]
+INFO: [BD 41-1662] The design 'HDMI_bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+export_ip_user_files -of_objects [get_files C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd] -directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+[Mon Dec  6 17:33:25 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 17:33:26 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 17:40:11 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2.1
+  **** Build date : Jul 26 2018-19:38:10
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 3349.477 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210351A787B1A
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 17:44:57 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 17:44:57 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3349.477 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 18:02:33 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+update_module_reference HDMI_bd_pixel16_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'RESET' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'CLK' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'CLK': Added interface parameter 'ASSOCIATED_RESET' with value 'RESET'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'CLK': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+Upgrading 'C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd'
+INFO: [IP_Flow 19-1972] Upgraded HDMI_bd_pixel16_0_0 from pixel16_v1_0 1.0 to pixel16_v1_0 1.0
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+
+launch_runs impl_1 -jobs 8
+CRITICAL WARNING: [BD 41-1348] Reset pin /pixel16_0/RESET (associated clock /pixel16_0/CLK) is connected to asynchronous reset source /reset.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /dvi2rgb_0/PixelClk.
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/RefClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=/clk_wiz_0_clk_out1 
+WARNING: [BD 41-927] Following properties on pin /dvi2rgb_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-927] Following properties on pin /rgb2dvi_0/PixelClk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=HDMI_bd_dvi2rgb_0_0_PixelClk 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVDE has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pData has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pHSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+WARNING: [BD 41-1271] The connection to the pin: /dvi2rgb_0/vid_pVSync has been overridden by the user. This pin will not be connected as a part of the interface connection: dvi2rgb_0_RGB 
+Wrote  : <C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/HDMI_bd.bd> 
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/sim/HDMI_bd.vhd
+VHDL Output written to : C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block pixel16_0 .
+Exporting to file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd.hwh
+Generated Block Design Tcl file C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hw_handoff/HDMI_bd_bd.tcl
+Generated Hardware Definition File C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.hwdef
+[Mon Dec  6 18:07:23 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/runme.log
+[Mon Dec  6 18:07:23 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon Dec  6 18:13:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/ALCLO68/Documents/projet_vlsi-main/projet_vlsi-main/SerpentEncryption/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/impl_1/HDMI_bd_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  6 18:16:05 2021...

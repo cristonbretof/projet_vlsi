@@ -1,0 +1,1462 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Wed Dec  8 13:08:15 2021
+# Process ID: 6504
+# Current directory: C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log HDMI_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HDMI_bd_wrapper.tcl
+# Log file: C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/HDMI_bd_wrapper.vds
+# Journal file: C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source HDMI_bd_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Programs/Xilinx/Vivado/2018.2/data/ip'.
+Command: synth_design -top HDMI_bd_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7408 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 392.684 ; gain = 95.410
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:128]
+WARNING: [Synth 8-1565] actual for formal port arst is neither a static name nor a globally static expression [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:161]
+WARNING: [Synth 8-1565] actual for formal port potherchrdy is neither a static name nor a globally static expression [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:182]
+WARNING: [Synth 8-1565] actual for formal port potherchvld is neither a static name nor a globally static expression [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'HDMI_bd_wrapper' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'HDMI_bd' declared at 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:14' bound to instance 'HDMI_bd_i' of component 'HDMI_bd' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'HDMI_bd' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:43]
+INFO: [Synth 8-3491] module 'HDMI_bd_clk_wiz_0_0' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.v:70' bound to instance 'clk_wiz_0' of component 'HDMI_bd_clk_wiz_0_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:184]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_bd_clk_wiz_0_0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_bd_clk_wiz_0_0_clk_wiz' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19473]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (1#1) [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:19473]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:40057]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 8 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKIN1_PERIOD bound to: 8.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE bound to: 5 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (2#1) [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:40057]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (3#1) [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_bd_clk_wiz_0_0_clk_wiz' (4#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0_clk_wiz.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_bd_clk_wiz_0_0' (5#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.v:70]
+INFO: [Synth 8-3491] module 'HDMI_bd_dvi2rgb_0_0' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/synth/HDMI_bd_dvi2rgb_0_0.vhd:56' bound to instance 'dvi2rgb_0' of component 'HDMI_bd_dvi2rgb_0_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'HDMI_bd_dvi2rgb_0_0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/synth/HDMI_bd_dvi2rgb_0_0.vhd:80]
+	Parameter kEmulateDDC bound to: 1 - type: bool 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+	Parameter kClkRange bound to: 3 - type: integer 
+	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
+	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
+	Parameter kAddBUFG bound to: 1 - type: bool 
+	Parameter kEdidFileName bound to: dgl_720p_cea.data - type: string 
+INFO: [Synth 8-3491] module 'dvi2rgb' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:64' bound to instance 'U0' of component 'dvi2rgb' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/synth/HDMI_bd_dvi2rgb_0_0.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'dvi2rgb' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:110]
+	Parameter kEmulateDDC bound to: 1 - type: bool 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+	Parameter kAddBUFG bound to: 1 - type: bool 
+	Parameter kClkRange bound to: 3 - type: integer 
+	Parameter kEdidFileName bound to: dgl_720p_cea.data - type: string 
+	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
+	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Clocking' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:75]
+	Parameter kClkRange bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsyncReset.vhd:72]
+	Parameter kPolarity bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* keep = "TRUE" *) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsyncReset.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+	Parameter kResetTo bound to: 1'b1 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (6#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (7#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsyncReset.vhd:72]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:118]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:132]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 15.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 18.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 3.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'MMCME2_ADV' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:173]
+INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:232]
+	Parameter BUFR_DIVIDE bound to: 5 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'PixelClkBuffer' to cell 'BUFR' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:238]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+	Parameter kResetTo bound to: 1'b0 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized0' (7#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Clocking' (8#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Clocking.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Decoder' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Decoder.vhd:96]
+	Parameter kCtlTknCount bound to: 128 - type: integer 
+	Parameter kTimeoutMs bound to: 50 - type: integer 
+	Parameter kRefClkFrqMHz bound to: 200 - type: integer 
+	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
+	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'InputSERDES' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:85]
+	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
+	Parameter kParallelWidth bound to: 10 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+INFO: [Synth 8-113] binding component instance 'InputBuffer' to cell 'IBUFDS' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:92]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: float 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:102]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 2 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DeserializerMaster' to cell 'ISERDESE2' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:130]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 2 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DeserializerSlave' to cell 'ISERDESE2' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:172]
+INFO: [Synth 8-256] done synthesizing module 'InputSERDES' (9#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/InputSERDES.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'SyncBase' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncBase.vhd:74]
+	Parameter kResetTo bound to: 1'b0 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+	Parameter kResetTo bound to: 1'b0 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (9#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SyncBase' (10#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncBase.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'SyncBase__parameterized0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncBase.vhd:74]
+	Parameter kResetTo bound to: 1'b1 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SyncBase__parameterized0' (10#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncBase.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'PhaseAlign' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:95]
+	Parameter kUseFastAlgorithm bound to: 0 - type: bool 
+	Parameter kCtlTknCount bound to: 128 - type: integer 
+	Parameter kIDLY_TapValuePs bound to: 78 - type: integer 
+	Parameter kIDLY_TapWidth bound to: 5 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element pTkn0FlagQ_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:172]
+WARNING: [Synth 8-6014] Unused sequential element pTkn1FlagQ_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:173]
+WARNING: [Synth 8-6014] Unused sequential element pTkn2FlagQ_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:174]
+WARNING: [Synth 8-6014] Unused sequential element pTkn3FlagQ_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:175]
+WARNING: [Synth 8-6014] Unused sequential element pDelayFastOvf_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:209]
+INFO: [Synth 8-256] done synthesizing module 'PhaseAlign' (11#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/PhaseAlign.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'ChannelBond' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/ChannelBond.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'ChannelBond' (12#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/ChannelBond.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Decoder' (13#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TMDS_Decoder.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'ResyncToBUFG' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/ResyncToBUFG.vhd:78]
+INFO: [Synth 8-113] binding component instance 'InstBUFG' to cell 'BUFG' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/ResyncToBUFG.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'ResyncToBUFG' (14#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/ResyncToBUFG.vhd:78]
+INFO: [Synth 8-638] synthesizing module 'EEPROM_8b' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/EEPROM_8b.vhd:85]
+	Parameter kSampleClkFreqInMHz bound to: 200 - type: integer 
+	Parameter kSlaveAddress bound to: 7'b1010000 
+	Parameter kAddrBits bound to: 8 - type: integer 
+	Parameter kWritable bound to: 0 - type: bool 
+	Parameter kInitFileName bound to: dgl_720p_cea.data - type: string 
+INFO: [Synth 8-638] synthesizing module 'TWI_SlaveCtl' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TWI_SlaveCtl.vhd:87]
+	Parameter SLAVE_ADDRESS bound to: 8'b10100000 
+	Parameter kSampleClkFreqInMHz bound to: 200 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TWI_SlaveCtl.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'GlitchFilter' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/GlitchFilter.vhd:69]
+	Parameter kNoOfPeriodsToFilter bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'GlitchFilter' (15#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/GlitchFilter.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'TWI_SlaveCtl' (16#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/TWI_SlaveCtl.vhd:87]
+INFO: [Synth 8-226] default block is never used [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/EEPROM_8b.vhd:201]
+INFO: [Synth 8-256] done synthesizing module 'EEPROM_8b' (17#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/EEPROM_8b.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'dvi2rgb' (18#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/dvi2rgb.vhd:110]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_bd_dvi2rgb_0_0' (19#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/synth/HDMI_bd_dvi2rgb_0_0.vhd:80]
+INFO: [Synth 8-3491] module 'HDMI_bd_pixel16_0_0' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/synth/HDMI_bd_pixel16_0_0.vhd:56' bound to instance 'pixel16_0' of component 'HDMI_bd_pixel16_0_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'HDMI_bd_pixel16_0_0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/synth/HDMI_bd_pixel16_0_0.vhd:74]
+INFO: [Synth 8-3491] module 'pixel16' declared at 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:38' bound to instance 'U0' of component 'pixel16' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/synth/HDMI_bd_pixel16_0_0.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'pixel16' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'key_padding' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_padding.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'key_padding' (20#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_padding.vhd:9]
+INFO: [Synth 8-638] synthesizing module 'key_expansion' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_expansion.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_0.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_0.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_0' (21#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_0' (22#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_0.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_0' (23#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_0.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_1' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_1.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_1' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_1.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_1' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_1' (24#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_1.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_1' (25#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_1' (26#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_1.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_2' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_2.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_2' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_2.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_2' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_2' (27#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_2' (28#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_2' (29#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_2.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_3' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_3.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_3' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_3.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_3' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_3.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_3' (30#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_3.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_3' (31#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_3.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_3' (32#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_3.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_4' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_4.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_4' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_4.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_4' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_4.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_4' (33#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_4.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_4' (34#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_4.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_4' (35#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_4.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_5' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_5.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_5' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_5.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_5' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_5.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_5' (36#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_5.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_5' (37#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_5.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_5' (38#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_5.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_6' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_6.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_6' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_6.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_6' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_6.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_6' (39#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_6.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_6' (40#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_6.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_6' (41#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_6.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'top_para_sbox_7' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_7.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'parallel_s_box_7' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_7.vhd:41]
+INFO: [Synth 8-638] synthesizing module 's_box_7' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_7.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 's_box_7' (42#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/s_box_7.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'parallel_s_box_7' (43#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/parallel_s_box_7.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'top_para_sbox_7' (44#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/top_para_sbox_7.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'key_expansion' (45#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/key_expansion.vhd:13]
+INFO: [Synth 8-3491] module 'serpent_encryption_block' declared at 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd:14' bound to instance 'block11' of component 'serpent_encryption_block' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'serpent_encryption_block' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'linear_transform' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/linear_transform.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'linear_transform' (46#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/linear_transform.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'serpent_encryption_block' (47#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd:22]
+INFO: [Synth 8-3491] module 'serpent_encryption_block' declared at 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd:14' bound to instance 'block21' of component 'serpent_encryption_block' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:120]
+INFO: [Synth 8-3491] module 'serpent_encryption_block' declared at 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/serpent_encryption_block.vhd:14' bound to instance 'block31' of component 'serpent_encryption_block' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:127]
+WARNING: [Synth 8-6014] Unused sequential element start_int_reg was removed.  [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:176]
+INFO: [Synth 8-256] done synthesizing module 'pixel16' (48#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/new/pixel16.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_bd_pixel16_0_0' (49#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_pixel16_0_0/synth/HDMI_bd_pixel16_0_0.vhd:74]
+INFO: [Synth 8-3491] module 'HDMI_bd_rgb2dvi_0_0' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/synth/HDMI_bd_rgb2dvi_0_0.vhd:56' bound to instance 'rgb2dvi_0' of component 'HDMI_bd_rgb2dvi_0_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'HDMI_bd_rgb2dvi_0_0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/synth/HDMI_bd_rgb2dvi_0_0.vhd:71]
+	Parameter kGenerateSerialClk bound to: 1 - type: bool 
+	Parameter kClkPrimitive bound to: MMCM - type: string 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+	Parameter kClkRange bound to: 3 - type: integer 
+	Parameter kD0Swap bound to: 0 - type: bool 
+	Parameter kD1Swap bound to: 0 - type: bool 
+	Parameter kD2Swap bound to: 0 - type: bool 
+	Parameter kClkSwap bound to: 0 - type: bool 
+INFO: [Synth 8-3491] module 'rgb2dvi' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/rgb2dvi.vhd:62' bound to instance 'U0' of component 'rgb2dvi' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/synth/HDMI_bd_rgb2dvi_0_0.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'rgb2dvi' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/rgb2dvi.vhd:94]
+	Parameter kGenerateSerialClk bound to: 1 - type: bool 
+	Parameter kClkPrimitive bound to: MMCM - type: string 
+	Parameter kClkRange bound to: 3 - type: integer 
+	Parameter kRstActiveHigh bound to: 1 - type: bool 
+	Parameter kD0Swap bound to: 0 - type: bool 
+	Parameter kD1Swap bound to: 0 - type: bool 
+	Parameter kD2Swap bound to: 0 - type: bool 
+	Parameter kClkSwap bound to: 0 - type: bool 
+INFO: [Synth 8-638] synthesizing module 'ClockGen' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:46]
+	Parameter kClkRange bound to: 3 - type: integer 
+	Parameter kClkPrimitive bound to: MMCM - type: string 
+	Parameter kPolarity bound to: 1'b1 
+INFO: [Synth 8-3491] module 'ResetBridge' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsyncReset.vhd:63' bound to instance 'LockLostReset' of component 'ResetBridge' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:82]
+	Parameter kResetTo bound to: 1'b0 
+	Parameter kStages bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'SyncAsync' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/0387/src/SyncAsync.vhd:61' bound to instance 'PLL_LockSyncAsync' of component 'SyncAsync' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:90]
+WARNING: [Synth 8-614] signal 'pRst' is read in the process but is not in the sensitivity list [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:97]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 15.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 18.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 3.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 15 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'DVI_ClkGenerator' to cell 'MMCME2_ADV' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:141]
+INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:205]
+	Parameter BUFR_DIVIDE bound to: 5 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'PixelClkBuffer' to cell 'BUFR' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:211]
+	Parameter BUFR_DIVIDE bound to: 1 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'Deskew' to cell 'BUFR' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:223]
+INFO: [Synth 8-256] done synthesizing module 'ClockGen' (50#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/ClockGen.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'OutputSERDES' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/OutputSERDES.vhd:76]
+	Parameter kParallelWidth bound to: 10 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: TMDS_33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OutputBuffer' to cell 'OBUFDS' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/OutputSERDES.vhd:83]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerMaster' to cell 'OSERDESE2' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/OutputSERDES.vhd:92]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: SDR - type: string 
+	Parameter DATA_WIDTH bound to: 10 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: SLAVE - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'SerializerSlave' to cell 'OSERDESE2' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/OutputSERDES.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'OutputSERDES' (51#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/OutputSERDES.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'TMDS_Encoder' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'TMDS_Encoder' (52#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'rgb2dvi' (53#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/rgb2dvi.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_bd_rgb2dvi_0_0' (54#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/synth/HDMI_bd_rgb2dvi_0_0.vhd:71]
+INFO: [Synth 8-3491] module 'HDMI_bd_xlconstant_0_0' declared at 'c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_xlconstant_0_0/synth/HDMI_bd_xlconstant_0_0.v:57' bound to instance 'xlconstant_0' of component 'HDMI_bd_xlconstant_0_0' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:242]
+INFO: [Synth 8-6157] synthesizing module 'HDMI_bd_xlconstant_0_0' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_xlconstant_0_0/synth/HDMI_bd_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (55#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'HDMI_bd_xlconstant_0_0' (56#1) [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_xlconstant_0_0/synth/HDMI_bd_xlconstant_0_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_bd' (57#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/synth/HDMI_bd.vhd:43]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'hdmi_in_ddc_scl_iobuf' of component 'IOBUF' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:98]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (58#1) [C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660]
+INFO: [Synth 8-3491] module 'IOBUF' declared at 'C:/Programs/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:22660' bound to instance 'hdmi_in_ddc_sda_iobuf' of component 'IOBUF' [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_bd_wrapper' (59#1) [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/hdl/HDMI_bd_wrapper.vhd:35]
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port SerialClk
+WARNING: [Synth 8-3331] design TMDS_Encoder has unconnected port aRst
+WARNING: [Synth 8-3331] design rgb2dvi has unconnected port aRst_n
+WARNING: [Synth 8-3331] design serpent_encryption_block has unconnected port i_pixel_clk
+WARNING: [Synth 8-3331] design dvi2rgb has unconnected port aRst_n
+WARNING: [Synth 8-3331] design dvi2rgb has unconnected port pRst_n
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 490.371 ; gain = 193.098
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 490.371 ; gain = 193.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 490.371 ; gain = 193.098
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0_board.xdc] for cell 'HDMI_bd_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0_board.xdc] for cell 'HDMI_bd_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xdc] for cell 'HDMI_bd_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xdc] for cell 'HDMI_bd_i/clk_wiz_0/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_clk_wiz_0_0/HDMI_bd_clk_wiz_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HDMI_bd_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/HDMI_bd_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'HDMI_bd_i/dvi2rgb_0/U0'
+Finished Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'HDMI_bd_i/dvi2rgb_0/U0'
+Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'HDMI_bd_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/src/rgb2dvi.xdc] for cell 'HDMI_bd_i/rgb2dvi_0/U0'
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/constrs_1/imports/constraints/Zybo-Z7-Master.xdc]
+Finished Parsing XDC File [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/constrs_1/imports/constraints/Zybo-Z7-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/constrs_1/imports/constraints/Zybo-Z7-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HDMI_bd_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/HDMI_bd_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/HDMI_bd_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/HDMI_bd_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'HDMI_bd_i/rgb2dvi_0/U0'
+Finished Parsing XDC File [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_rgb2dvi_0_0/src/rgb2dvi_clocks.xdc] for cell 'HDMI_bd_i/rgb2dvi_0/U0'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 929.867 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+WARNING: set_property IODELAY_GROUP could not find object (constraint file  c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ip/HDMI_bd_dvi2rgb_0_0/src/dvi2rgb.xdc, line 8).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/dvi2rgb_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/rgb2dvi_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/pixel16_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/clk_wiz_0/inst. (constraint file  C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc, line 25).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/dvi2rgb_0/U0. (constraint file  C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc, line 33).
+Applied set_property DONT_TOUCH = true for HDMI_bd_i/rgb2dvi_0/U0. (constraint file  C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/dont_touch.xdc, line 38).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'pState_reg' in module 'PhaseAlign'
+INFO: [Synth 8-5546] ROM "pCtlTknOvf" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pDelayOvf" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pDelayWaitOvf" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "pTkn3Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pTkn2Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pTkn1Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pTkn0Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pCtlTknRst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pEyeOpenEn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pIDLY_LD" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pIDLY_INC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pIDLY_INC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pAligned" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pError" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pFoundJtrFlag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pStateNxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pStateNxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pStateNxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "pStateNxt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "pStateNxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pStateNxt" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pAlignRst" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "pC0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pVde" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "sOut" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'TWI_SlaveCtl'
+INFO: [Synth 8-5544] ROM "shiftBitOut" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "nstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "eeprom" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'sState_reg' in module 'EEPROM_8b'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'pState_reg' in module 'fsm1E361986A800'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stidle |                              000 |                              000
+               staddress |                              011 |                              001
+            stturnaround |                              110 |                              110
+                  stsack |                              100 |                              100
+                  stread |                              001 |                              010
+                  stmack |                              010 |                              101
+                 stwrite |                              111 |                              011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'gray' in module 'TWI_SlaveCtl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stidle |                             0001 |                               00
+                  stread |                             0010 |                               01
+            stregaddress |                             0100 |                               11
+                 stwrite |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'sState_reg' using encoding 'one-hot' in module 'EEPROM_8b'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |HDMI_bd_clk_wiz_0_0_clk_wiz__GC0 |           1|         3|
+|2     |TMDS_Clocking__GC0               |           1|        47|
+|3     |InputSERDES__GC0                 |           1|         4|
+|4     |TMDS_Decoder__GC0                |           1|       926|
+|5     |dvi2rgb__GC0                     |           1|       910|
+|6     |key_expansion__GB0               |           1|     23933|
+|7     |key_expansion__GB1               |           1|     23815|
+|8     |key_expansion__GB2               |           1|     12039|
+|9     |key_expansion__GB3               |           1|     18817|
+|10    |serpent_encryption_block__GBM0   |           1|     20480|
+|11    |serpent_encryption_block__GBM1   |           1|     19435|
+|12    |serpent_encryption_block__GBM2   |           1|     11470|
+|13    |pixel16__GC0                     |           1|      3894|
+|14    |OutputSERDES__GC0                |           1|         2|
+|15    |rgb2dvi__GC0                     |           1|      1304|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 16    
+	   3 Input      5 Bit       Adders := 9     
+	   4 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 5     
+	   8 Input      4 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 6     
++---XORs : 
+	   2 Input    128 Bit         XORs := 27    
+	   5 Input     32 Bit         XORs := 132   
+	   3 Input     32 Bit         XORs := 96    
+	   2 Input      1 Bit         XORs := 84    
++---Registers : 
+	              384 Bit    Registers := 1     
+	               24 Bit    Registers := 66    
+	               10 Bit    Registers := 9     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 10    
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 16    
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 24    
+	                1 Bit    Registers := 320   
++---RAMs : 
+	              320 Bit         RAMs := 3     
++---Muxes : 
+	   2 Input    384 Bit        Muxes := 1     
+	   2 Input    128 Bit        Muxes := 3     
+	   4 Input     24 Bit        Muxes := 16    
+	   2 Input     24 Bit        Muxes := 15    
+	  12 Input     11 Bit        Muxes := 3     
+	   2 Input     11 Bit        Muxes := 3     
+	   2 Input     10 Bit        Muxes := 12    
+	   4 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 9     
+	   5 Input      8 Bit        Muxes := 3     
+	 257 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 6     
+	   2 Input      5 Bit        Muxes := 12    
+	   2 Input      4 Bit        Muxes := 7     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 15    
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 141   
+	  12 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 68    
+	   5 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SyncAsync__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncAsync__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncAsync__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module TMDS_Clocking 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module SyncAsync__parameterized1__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncBase 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module SyncAsync__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncBase__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module PhaseAlign 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	  12 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 19    
+	  12 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+Module ChannelBond 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	              320 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module TMDS_Decoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   5 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module SyncAsync__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module ResyncToBUFG 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module SyncAsync__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncAsync__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module GlitchFilter__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module GlitchFilter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module TWI_SlaveCtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 15    
+	   2 Input      1 Bit        Muxes := 11    
+	   7 Input      1 Bit        Muxes := 1     
+Module EEPROM_8b 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	 257 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module key_expansion 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input     32 Bit         XORs := 132   
+Module linear_transform__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__2 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__3 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__4 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__5 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__6 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform__7 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module linear_transform 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input     32 Bit         XORs := 4     
+Module serpent_encryption_block 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 9     
++---Muxes : 
+	   2 Input    128 Bit        Muxes := 1     
+Module pixel16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	              384 Bit    Registers := 1     
+	               24 Bit    Registers := 65    
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 195   
++---Muxes : 
+	   2 Input    384 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 16    
+	   2 Input     24 Bit        Muxes := 15    
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 58    
+	   2 Input      1 Bit        Muxes := 46    
+Module SyncAsync 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncAsync__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module SyncAsync__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module ClockGen 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module TMDS_Encoder__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+Module TMDS_Encoder__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+Module TMDS_Encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      5 Bit       Adders := 3     
+	   4 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   8 Input      4 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   4 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pStateNxt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pTkn1Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pTkn2Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pTkn3Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pTkn0Flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PhaseAlignX/pCtlTknOvf" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pC0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pVde" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'DataEncoders[1].DataEncoder/pC1_1_reg' into 'DataEncoders[1].DataEncoder/pC0_1_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'DataEncoders[1].DataEncoder/pC1_2_reg' into 'DataEncoders[1].DataEncoder/pC0_2_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'DataEncoders[1].DataEncoder/pVde_1_reg' into 'DataEncoders[0].DataEncoder/pVde_1_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'DataEncoders[1].DataEncoder/pVde_2_reg' into 'DataEncoders[0].DataEncoder/pVde_2_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:150]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pC0_1_reg' into 'DataEncoders[1].DataEncoder/pC0_1_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:114]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pC0_2_reg' into 'DataEncoders[1].DataEncoder/pC0_2_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:148]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pC1_1_reg' into 'DataEncoders[1].DataEncoder/pC0_1_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:115]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pC1_2_reg' into 'DataEncoders[1].DataEncoder/pC0_2_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:149]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pVde_1_reg' into 'DataEncoders[0].DataEncoder/pVde_1_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:110]
+INFO: [Synth 8-4471] merging register 'DataEncoders[2].DataEncoder/pVde_2_reg' into 'DataEncoders[0].DataEncoder/pVde_2_reg' [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:150]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[1].DataEncoder/pC1_1_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[1].DataEncoder/pC1_2_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:149]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[1].DataEncoder/pVde_1_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:110]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[1].DataEncoder/pVde_2_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:150]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pC0_1_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:114]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pC0_2_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:148]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pC1_1_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pC1_2_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:149]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pVde_1_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:110]
+WARNING: [Synth 8-6014] Unused sequential element DataEncoders[2].DataEncoder/pVde_2_reg was removed.  [c:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.srcs/sources_1/bd/HDMI_bd/ipshared/20df/src/TMDS_Encoder.vhd:150]
+WARNING: [Synth 8-3331] design rgb2dvi has unconnected port aRst_n
+WARNING: [Synth 8-3331] design dvi2rgb has unconnected port aRst_n
+WARNING: [Synth 8-3331] design dvi2rgb has unconnected port pRst_n
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[2].DataEncoder/n0q_m_2_reg[0]' (FD) to 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[2].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[1].DataEncoder/n0q_m_2_reg[0]' (FD) to 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[1].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (HDMI_bd_i/rgb2dvi_0/U0/i_0/\DataEncoders[1].DataEncoder/pC0_1_reg )
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[0].DataEncoder/n0q_m_2_reg[0]' (FD) to 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[0].DataEncoder/n1q_m_2_reg[0]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[1].DataEncoder/pC0_2_reg' (FD) to 'HDMI_bd_i/rgb2dvi_0/U0/i_0/DataEncoders[1].DataEncoder/pC0_1_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (HDMI_bd_i/rgb2dvi_0/U0/i_0/\DataEncoders[1].DataEncoder/pC0_1_reg )
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[4]' (FDCE) to 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[5]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[7]' (FDCE) to 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[5]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[5]' (FDCE) to 'HDMI_bd_i/pixel16_0/U0i_13/counter_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (HDMI_bd_i/pixel16_0/U0i_13/\counter_reg[6] )
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port P[2] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port P[1] driven by constant 1
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port P[0] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O12[2] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O12[1] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O12[0] driven by constant 1
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O13[2] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O13[1] driven by constant 1
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O13[0] driven by constant 1
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O14[5] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O14[2] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O14[1] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O14[0] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O15[2] driven by constant 1
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O15[1] driven by constant 0
+WARNING: [Synth 8-3917] design serpent_encryption_block__GBM1 has port O15[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:03:37 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+------------------------+-----------+----------------------+--------------+
+|Module Name            | RTL Object             | Inference | Size (Depth x Width) | Primitives   | 
++-----------------------+------------------------+-----------+----------------------+--------------+
+|HDMI_bd_i/dvi2rgb_0/U0 | ChannelBondX/pFIFO_reg | Implied   | 32 x 10              | RAM32M x 2   | 
+|HDMI_bd_i/dvi2rgb_0/U0 | ChannelBondX/pFIFO_reg | Implied   | 32 x 10              | RAM32M x 2   | 
++-----------------------+------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |HDMI_bd_clk_wiz_0_0_clk_wiz__GC0 |           1|         3|
+|2     |TMDS_Clocking__GC0               |           1|        46|
+|3     |InputSERDES__GC0                 |           3|         4|
+|4     |TMDS_Decoder__GC0                |           1|       560|
+|5     |dvi2rgb__GC0                     |           1|       641|
+|6     |key_expansion__GB0               |           1|     29582|
+|7     |key_expansion__GB1               |           1|     31404|
+|8     |key_expansion__GB2               |           1|     11734|
+|9     |key_expansion__GB3               |           1|     19614|
+|10    |serpent_encryption_block__GBM0   |           3|     19968|
+|11    |serpent_encryption_block__GBM1   |           3|      9839|
+|12    |serpent_encryption_block__GBM2   |           3|      7334|
+|13    |pixel16__GC0                     |           1|      4145|
+|14    |OutputSERDES__GC0                |           3|         2|
+|15    |rgb2dvi__GC0                     |           1|       806|
+|16    |OutputSERDES__GC0__1             |           1|         2|
+|17    |TMDS_Decoder__GC0__1             |           2|       545|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:33 ; elapsed = 00:03:47 . Memory (MB): peak = 929.867 ; gain = 632.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:37 ; elapsed = 00:03:51 . Memory (MB): peak = 947.402 ; gain = 650.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++-----------------------+------------------------+-----------+----------------------+--------------+
+|Module Name            | RTL Object             | Inference | Size (Depth x Width) | Primitives   | 
++-----------------------+------------------------+-----------+----------------------+--------------+
+|HDMI_bd_i/dvi2rgb_0/U0 | ChannelBondX/pFIFO_reg | Implied   | 32 x 10              | RAM32M x 2   | 
+|HDMI_bd_i/dvi2rgb_0/U0 | ChannelBondX/pFIFO_reg | Implied   | 32 x 10              | RAM32M x 2   | 
++-----------------------+------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------------------+------------+----------+
+|      |RTL Partition                    |Replication |Instances |
++------+---------------------------------+------------+----------+
+|1     |HDMI_bd_clk_wiz_0_0_clk_wiz__GC0 |           1|         3|
+|2     |TMDS_Clocking__GC0               |           1|        46|
+|3     |InputSERDES__GC0                 |           3|         4|
+|4     |TMDS_Decoder__GC0                |           1|       560|
+|5     |dvi2rgb__GC0                     |           1|       582|
+|6     |key_expansion__GB0               |           1|      2339|
+|7     |serpent_encryption_block__GBM1   |           3|      6238|
+|8     |serpent_encryption_block__GBM2   |           3|      7205|
+|9     |pixel16__GC0                     |           1|      4145|
+|10    |OutputSERDES__GC0                |           3|         2|
+|11    |rgb2dvi__GC0                     |           1|       806|
+|12    |OutputSERDES__GC0__1             |           1|         2|
+|13    |TMDS_Decoder__GC0__1             |           2|       545|
++------+---------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg_rep[4]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg[4]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg_rep[2]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg[2]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg_rep[0]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg[0]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg_rep[1]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg[1]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg_rep[3]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[1].DecoderX/ChannelBondX/pRdA_reg[3]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg_rep[4]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg[4]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg_rep[2]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg[2]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg_rep[0]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg[0]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg_rep[1]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg[1]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg_rep[3]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[0].DecoderX/ChannelBondX/pRdA_reg[3]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg_rep[4]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg[4]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg_rep[2]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg[2]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg_rep[0]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg[0]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg_rep[1]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg[1]'
+INFO: [Synth 8-3886] merging instance 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg_rep[3]' (FDRE) to 'HDMI_bd_i/dvi2rgb_0/U0/DataDecoders[2].DecoderX/ChannelBondX/pRdA_reg[3]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:41 ; elapsed = 00:03:56 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:42 ; elapsed = 00:03:57 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:43 ; elapsed = 00:03:57 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:43 ; elapsed = 00:03:57 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:43 ; elapsed = 00:03:57 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:44 ; elapsed = 00:03:58 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:44 ; elapsed = 00:03:58 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     3|
+|2     |BUFIO       |     2|
+|3     |BUFR        |     2|
+|4     |BUFR_1      |     1|
+|5     |CARRY4      |    18|
+|6     |IDELAYCTRL  |     1|
+|7     |IDELAYE2    |     3|
+|8     |ISERDESE2   |     3|
+|9     |ISERDESE2_1 |     3|
+|10    |LUT1        |    28|
+|11    |LUT2        |   501|
+|12    |LUT3        |  1152|
+|13    |LUT4        |  2467|
+|14    |LUT5        |  1480|
+|15    |LUT6        |  3085|
+|16    |MMCME2_ADV  |     2|
+|17    |MUXF7       |    18|
+|18    |MUXF8       |     8|
+|19    |OSERDESE2   |     4|
+|20    |OSERDESE2_1 |     4|
+|21    |PLLE2_ADV   |     1|
+|22    |RAM32M      |     6|
+|23    |FDCE        |    47|
+|24    |FDPE        |    25|
+|25    |FDRE        |  2692|
+|26    |FDSE        |    27|
+|27    |IBUF        |     7|
+|28    |IBUFDS      |     4|
+|29    |IOBUF       |     2|
+|30    |OBUF        |     1|
+|31    |OBUFDS      |     4|
++------+------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+-----------------------------+------+
+|      |Instance                                 |Module                       |Cells |
++------+-----------------------------------------+-----------------------------+------+
+|1     |top                                      |                             | 11601|
+|2     |  HDMI_bd_i                              |HDMI_bd                      | 11592|
+|3     |    clk_wiz_0                            |HDMI_bd_clk_wiz_0_0          |     4|
+|4     |      inst                               |HDMI_bd_clk_wiz_0_0_clk_wiz  |     4|
+|5     |    dvi2rgb_0                            |HDMI_bd_dvi2rgb_0_0          |  1075|
+|6     |      U0                                 |dvi2rgb                      |  1075|
+|7     |        \DataDecoders[0].DecoderX        |TMDS_Decoder                 |   273|
+|8     |          ChannelBondX                   |ChannelBond_27               |    64|
+|9     |          InputSERDES_X                  |InputSERDES_28               |     4|
+|10    |          PhaseAlignX                    |PhaseAlign_29                |   141|
+|11    |          SyncBaseOvf                    |SyncBase_30                  |    10|
+|12    |            SyncAsyncx                   |SyncAsync__parameterized1_33 |     2|
+|13    |          SyncBaseRst                    |SyncBase__parameterized0_31  |     3|
+|14    |            SyncAsyncx                   |SyncAsync_32                 |     2|
+|15    |        \DataDecoders[1].DecoderX        |TMDS_Decoder_7               |   267|
+|16    |          ChannelBondX                   |ChannelBond_20               |    61|
+|17    |          InputSERDES_X                  |InputSERDES_21               |     4|
+|18    |          PhaseAlignX                    |PhaseAlign_22                |   141|
+|19    |          SyncBaseOvf                    |SyncBase_23                  |    10|
+|20    |            SyncAsyncx                   |SyncAsync__parameterized1_26 |     2|
+|21    |          SyncBaseRst                    |SyncBase__parameterized0_24  |     3|
+|22    |            SyncAsyncx                   |SyncAsync_25                 |     2|
+|23    |        \DataDecoders[2].DecoderX        |TMDS_Decoder_8               |   267|
+|24    |          ChannelBondX                   |ChannelBond                  |    61|
+|25    |          InputSERDES_X                  |InputSERDES                  |     4|
+|26    |          PhaseAlignX                    |PhaseAlign                   |   141|
+|27    |          SyncBaseOvf                    |SyncBase                     |    10|
+|28    |            SyncAsyncx                   |SyncAsync__parameterized1_19 |     2|
+|29    |          SyncBaseRst                    |SyncBase__parameterized0     |     3|
+|30    |            SyncAsyncx                   |SyncAsync_18                 |     2|
+|31    |        \GenerateBUFG.ResyncToBUFG_X     |ResyncToBUFG                 |    28|
+|32    |        \GenerateDDC.DDC_EEPROM          |EEPROM_8b                    |   201|
+|33    |          I2C_SlaveController            |TWI_SlaveCtl                 |   115|
+|34    |            GlitchF_SCL                  |GlitchFilter                 |    12|
+|35    |            GlitchF_SDA                  |GlitchFilter_15              |    12|
+|36    |            SyncSCL                      |SyncAsync_16                 |     3|
+|37    |            SyncSDA                      |SyncAsync_17                 |     3|
+|38    |        LockLostReset                    |ResetBridge_9                |     2|
+|39    |          SyncAsyncx                     |SyncAsync_14                 |     2|
+|40    |        TMDS_ClockingX                   |TMDS_Clocking                |    36|
+|41    |          LockLostReset                  |ResetBridge_10               |     3|
+|42    |            SyncAsyncx                   |SyncAsync_13                 |     3|
+|43    |          MMCM_LockSync                  |SyncAsync__parameterized0    |     4|
+|44    |          RdyLostReset                   |ResetBridge_11               |     3|
+|45    |            SyncAsyncx                   |SyncAsync_12                 |     2|
+|46    |    pixel16_0                            |HDMI_bd_pixel16_0_0          | 10154|
+|47    |      U0                                 |pixel16                      | 10154|
+|48    |    rgb2dvi_0                            |HDMI_bd_rgb2dvi_0_0          |   359|
+|49    |      U0                                 |rgb2dvi                      |   359|
+|50    |        \ClockGenInternal.ClockGenX      |ClockGen                     |    16|
+|51    |          LockLostReset                  |ResetBridge_5                |     2|
+|52    |            SyncAsyncx                   |SyncAsync_6                  |     2|
+|53    |          PLL_LockSyncAsync              |SyncAsync__parameterized1    |     2|
+|54    |        ClockSerializer                  |OutputSERDES                 |     3|
+|55    |        \DataEncoders[0].DataEncoder     |TMDS_Encoder                 |   116|
+|56    |        \DataEncoders[0].DataSerializer  |OutputSERDES_0               |     3|
+|57    |        \DataEncoders[1].DataEncoder     |TMDS_Encoder_1               |   108|
+|58    |        \DataEncoders[1].DataSerializer  |OutputSERDES_2               |     3|
+|59    |        \DataEncoders[2].DataEncoder     |TMDS_Encoder_3               |   105|
+|60    |        \DataEncoders[2].DataSerializer  |OutputSERDES_4               |     3|
+|61    |        LockLostReset                    |ResetBridge                  |     2|
+|62    |          SyncAsyncx                     |SyncAsync                    |     2|
+|63    |    xlconstant_0                         |HDMI_bd_xlconstant_0_0       |     0|
++------+-----------------------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:44 ; elapsed = 00:03:58 . Memory (MB): peak = 1056.363 ; gain = 759.090
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:29 ; elapsed = 00:03:47 . Memory (MB): peak = 1056.363 ; gain = 319.594
+Synthesis Optimization Complete : Time (s): cpu = 00:01:44 ; elapsed = 00:03:59 . Memory (MB): peak = 1056.363 ; gain = 759.090
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 82 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'HDMI_bd_wrapper' is not ideal for floorplanning, since the cellview 'pixel16' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+265 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:47 ; elapsed = 00:04:02 . Memory (MB): peak = 1056.363 ; gain = 768.906
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ALCLO68/Desktop/FSM_HDMI_Encrypt/ZYBO_HDMI_MGA_2018_2/project_1/project_1.runs/synth_1/HDMI_bd_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file HDMI_bd_wrapper_utilization_synth.rpt -pb HDMI_bd_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1056.363 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  8 13:12:26 2021...
